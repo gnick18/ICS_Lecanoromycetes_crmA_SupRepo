@@ -1,0 +1,1482 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Input file name: ./nrps_domains_gt0-9.fas
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 910976
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 346 sequences with 986 amino-acid sites
+Number of constant sites: 16 (= 1.62272% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 16 (= 1.62272% of all sites)
+Number of parsimony informative sites: 906
+Number of distinct site patterns: 986
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.plant+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0098
+Gamma shape alpha: 1.0046
+
+ Category  Relative_rate  Proportion
+  0         0              0.0098
+  1         0.1392         0.2476
+  2         0.4829         0.2476
+  3         1.0106         0.2476
+  4         2.4067         0.2476
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -141807.2831 (s.e. 3181.0470)
+Unconstrained log-likelihood (without tree): -6797.1452
+Number of free parameters (#branches + #model parameters): 691
+Akaike information criterion (AIC) score: 284996.5662
+Corrected Akaike information criterion (AICc) score: 288249.4370
+Bayesian information criterion (BIC) score: 288378.0828
+
+Total tree length (sum of branch lengths): 45.7434
+Sum of internal branch lengths: 16.4947 (36.0593% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'XP_748589.2_NRPS-like-enzyme' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------------XP_748589.2_NRPS-like-enzyme
+|
+|                                       +--ETI29378.1_split
+|                                    +--| (100)
+|                                    |  |  +--KIW62367.1_split
+|                                    |  +--| (96)
+|                                    |     +--XP_013253686.1_split
+|                                 +--| (98)
+|                                 |  |                          +--EMT71252.1_split
+|                                 |  |                       +--| (100)
+|                                 |  |                       |  +--TVY68268.1_split
+|                                 |  |                    +--| (100)
+|                                 |  |                    |  +--KAH7154173.1_split
+|                                 |  |                 +--| (99)
+|                                 |  |                 |  |        +--KAF4500682.1_split
+|                                 |  |                 |  |     +--| (100)
+|                                 |  |                 |  |     |  |     +--KAF5254629.1_split
+|                                 |  |                 |  |     |  |  +--| (87)
+|                                 |  |                 |  |     |  |  |  |  +--KAF5557414.1_split
+|                                 |  |                 |  |     |  |  |  +--| (81)
+|                                 |  |                 |  |     |  |  |     +--XP_036540337.1_split
+|                                 |  |                 |  |     |  +--| (100)
+|                                 |  |                 |  |     |     |  +--KAF5979539.1_split
+|                                 |  |                 |  |     |     +--| (100)
+|                                 |  |                 |  |     |        +--KAF5686004.1_split
+|                                 |  |                 |  |  +--| (44)
+|                                 |  |                 |  |  |  |                          +--RBQ68774.1_split
+|                                 |  |                 |  |  |  |                       +--| (100)
+|                                 |  |                 |  |  |  |                       |  +--XP_044675052.1_split
+|                                 |  |                 |  |  |  |                    +--| (94)
+|                                 |  |                 |  |  |  |                    |  +--KAF5981079.1_split
+|                                 |  |                 |  |  |  |                 +--| (94)
+|                                 |  |                 |  |  |  |                 |  +--PNP81105.1_split
+|                                 |  |                 |  |  |  |              +--| (99)
+|                                 |  |                 |  |  |  |              |  |  +--KAF5589598.1_split
+|                                 |  |                 |  |  |  |              |  +--| (99)
+|                                 |  |                 |  |  |  |              |     |  +--KAF5565221.1_split
+|                                 |  |                 |  |  |  |              |     +--| (91)
+|                                 |  |                 |  |  |  |              |        +--XP_037203802.1_split
+|                                 |  |                 |  |  |  |           +--| (99)
+|                                 |  |                 |  |  |  |           |  +--KAF5597173.1_split
+|                                 |  |                 |  |  |  |        +--| (99)
+|                                 |  |                 |  |  |  |        |  +--KAF5695110.1_split
+|                                 |  |                 |  |  |  |     +--| (100)
+|                                 |  |                 |  |  |  |     |  +--KAF5715932.1_split
+|                                 |  |                 |  |  |  |  +--| (79)
+|                                 |  |                 |  |  |  |  |  |  +--KAF5565682.1_split
+|                                 |  |                 |  |  |  |  |  +--| (100)
+|                                 |  |                 |  |  |  |  |     +--KAG5780768.1_split
+|                                 |  |                 |  |  |  +--| (62)
+|                                 |  |                 |  |  |     +--KAI1021066.1_split
+|                                 |  |                 |  +--| (100)
+|                                 |  |                 |     |           +--QGI70075.1_split
+|                                 |  |                 |     |        +--| (100)
+|                                 |  |                 |     |        |  |  +--RKL44236.1_split
+|                                 |  |                 |     |        |  +--| (100)
+|                                 |  |                 |     |        |     +--KAI1064558.1_split
+|                                 |  |                 |     |     +--| (99)
+|                                 |  |                 |     |     |  +--KAF5707538.1_split
+|                                 |  |                 |     |  +--| (99)
+|                                 |  |                 |     |  |  |  +--KAF5651976.1_split
+|                                 |  |                 |     |  |  +--| (99)
+|                                 |  |                 |     |  |     +--XP_041683486.1_split
+|                                 |  |                 |     +--| (40)
+|                                 |  |                 |        +--KAF5624378.1_split
+|                                 |  |              +--| (100)
+|                                 |  |              |  +--KAF4961575.1_split
+|                                 |  |           +--| (100)
+|                                 |  |           |  +--XP_046045061.1_split
+|                                 |  |        +--| (100)
+|                                 |  |        |  |  +--KAF4345085.1_split
+|                                 |  |        |  +--| (100)
+|                                 |  |        |     +--KAF9766433.1_split
+|                                 |  |     +--| (100)
+|                                 |  |     |  +--KAF4454195.1_split
+|                                 |  |  +--| (100)
+|                                 |  |  |  |        +--RFN52730.1_split
+|                                 |  |  |  |     +--| (82)
+|                                 |  |  |  |     |  |  +--KAI1060859.1_split
+|                                 |  |  |  |     |  +--| (84)
+|                                 |  |  |  |     |     +--XP_031016708.1_split
+|                                 |  |  |  |  +--| (100)
+|                                 |  |  |  |  |  +--CAG7559788.1_split
+|                                 |  |  |  +--| (100)
+|                                 |  |  |     |        +--KAF0635058.1_split
+|                                 |  |  |     |     +--| (100)
+|                                 |  |  |     |     |  |  +--PTD07815.1_split
+|                                 |  |  |     |     |  +--| (100)
+|                                 |  |  |     |     |     |  +--KAF5238437.1_split
+|                                 |  |  |     |     |     +--| (100)
+|                                 |  |  |     |     |        +--CEF78594.1_split
+|                                 |  |  |     |  +--| (100)
+|                                 |  |  |     |  |  |     +--OBS25042.1_split
+|                                 |  |  |     |  |  |  +--| (62)
+|                                 |  |  |     |  |  |  |  +--KAH6993714.1_split
+|                                 |  |  |     |  |  +--| (85)
+|                                 |  |  |     |  |     +--RGP74565.1_split
+|                                 |  |  |     +--| (100)
+|                                 |  |  |        +--RGP80029.1_split
+|                                 |  +--| (100)
+|                                 |     +--KAH6981580.1_split
+|                              +--| (99)
+|                              |  |  +--KAF1982044.1_split
+|                              |  +--| (99)
+|                              |     |  +--KAH8767597.1_split
+|                              |     +--| (100)
+|                              |        +--KAH8748815.1_split
+|                           +--| (99)
+|                           |  +--KAE9367493.1_split
+|                        +--| (99)
+|                        |  |              +--KIW83143.1_split
+|                        |  |           +--| (100)
+|                        |  |           |  +--XP_022517429.1_split
+|                        |  |        +--| (100)
+|                        |  |        |  +--XP_022496747.1_split
+|                        |  |     +--| (100)
+|                        |  |     |  +--XP_016263412.1_split
+|                        |  |  +--| (100)
+|                        |  |  |  |     +--TID19575.1_split
+|                        |  |  |  |  +--| (100)
+|                        |  |  |  |  |  +--KAE9991798.1_split
+|                        |  |  |  +--| (98)
+|                        |  |  |     +--KAF2420725.1_split
+|                        |  +--| (100)
+|                        |     |              +--KAF2439235.1_split
+|                        |     |           +--| (100)
+|                        |     |           |  +--XP_018033694.1_split
+|                        |     |        +--| (69)
+|                        |     |        |  +--XP_008022607.1_split
+|                        |     |     +--| (69)
+|                        |     |     |  +--XP_033541383.1_split
+|                        |     |  +--| (100)
+|                        |     |  |  +--KAF2648717.1_split
+|                        |     +--| (100)
+|                        |        |     +--KAG9241248.1_split
+|                        |        |  +--| (100)
+|                        |        |  |  +--KAH7317459.1_split
+|                        |        +--| (100)
+|                        |           +--XP_008078390.1_split
+|                     +--| (99)
+|                     |  +--KIM94081.1_split
+|                  +--| (52)
+|                  |  |  +--QIX01997.1_split
+|                  |  +--| (70)
+|                  |     |        +--KXT02248.1_split
+|                  |     |     +--| (82)
+|                  |     |     |  +--XP_033672321.1_split
+|                  |     |  +--| (77)
+|                  |     |  |  +---SMR58341.1_split
+|                  |     +--| (71)
+|                  |        |      +--KAH9843365.1_split
+|                  |        |  +---| (100)
+|                  |        |  |   +--KAF2764178.1_split
+|                  |        +--| (100)
+|                  |           +--KAF2154527.1_split
+|               +--| (61)
+|               |  |  +--KAF1945053.1_split
+|               |  +--| (100)
+|               |     |  +--KAF2846132.1_split
+|               |     +--| (100)
+|               |        |  +--KAH9869829.1_split
+|               |        +--| (100)
+|               |           +--KAH9861366.1_split
+|            +--| (98)
+|            |  |  +--ORY16213.1_split
+|            |  +--| (35)
+|            |     |                                         +----PSN59017.1_split
+|            |     |                                      +--| (88)
+|            |     |                                      |  |  +--Bipolaris_sorokiniana_XP_007696074.1_nrps
+|            |     |                                      |  +--| (90)
+|            |     |                                      |     |     +--Bipolaris_maydis_XP_014072682.1_nrps
+|            |     |                                      |     |  +--| (33)
+|            |     |                                      |     |  |  +--Bipolaris_oryzae_XP_007692129.1_nrps
+|            |     |                                      |     +--| (31)
+|            |     |                                      |        |  +--Bipolaris_victoriae_XP_014558639.1_nrps
+|            |     |                                      |        +--| (100)
+|            |     |                                      |           +--Bipolaris_zeicola_XP_007717065.1_nrps
+|            |     |                                   +--| (100)
+|            |     |                                   |  +--Curvularia_clavata_USP76830.1_nrps
+|            |     |                                +--| (100)
+|            |     |                                |  |        +--KAG9185430.1_split
+|            |     |                                |  |     +--| (100)
+|            |     |                                |  |     |  +--Clathrospora_elynae_KAF1934949.1_nrps
+|            |     |                                |  |  +--| (100)
+|            |     |                                |  |  |  +--Bipolaris_zeicola_XP_007718658.1_nrps
+|            |     |                                |  +--| (100)
+|            |     |                                |     +--Exserohilum_turcicum_XP_008020935.1_nrps
+|            |     |                             +--| (100)
+|            |     |                             |  |           +--Alternaria_alternata_OWY45736.1_nrps
+|            |     |                             |  |        +--| (100)
+|            |     |                             |  |        |  +--Alternaria_arborescens_XP_028501020.1_nrps
+|            |     |                             |  |     +--| (100)
+|            |     |                             |  |     |  +--Alternaria_postmessia_KAI5365607.1_nrps
+|            |     |                             |  |  +--| (100)
+|            |     |                             |  |  |  |     +--Alternaria_sp_MG1_RII22453.1_nrps
+|            |     |                             |  |  |  |  +--| (100)
+|            |     |                             |  |  |  |  |  +--Alternaria_burnsii_XP_038781501.1_nrps
+|            |     |                             |  |  |  +--| (99)
+|            |     |                             |  |  |     |  +--Alternaria_tenuissima_RYN54236.1_nrps
+|            |     |                             |  |  |     +--| (100)
+|            |     |                             |  |  |        +--Alternaria_gaisen_KAB2098972.1_nrps
+|            |     |                             |  +--| (100)
+|            |     |                             |     |                       +--Alternaria_sp_Ai002NY15_KAI4703537.1_nrps
+|            |     |                             |     |                    +--| (100)
+|            |     |                             |     |                    |  |  +**Alternaria_arbusti_KAI4940317.1_nrps
+|            |     |                             |     |                    |  +**| (78)
+|            |     |                             |     |                    |     +--Alternaria_infectoria_KAI4912202.1_nrps
+|            |     |                             |     |                 +--| (99)
+|            |     |                             |     |                 |  +--Alternaria_hordeiaustralica_XP_049239373.1_nrps
+|            |     |                             |     |              +--| (100)
+|            |     |                             |     |              |  |  +--Alternaria_sp_BMP_2799_KAI4676254.1_nrps
+|            |     |                             |     |              |  +--| (80)
+|            |     |                             |     |              |     +--Alternaria_novaezelandiae_XP_049249900.1_nrps
+|            |     |                             |     |           +--| (56)
+|            |     |                             |     |           |  +--Alternaria_ethzedia_XP_049228601.1_nrps
+|            |     |                             |     |        +--| (98)
+|            |     |                             |     |        |  |        +--Alternaria_sp_BMP_0032_KAI4606514.1_nrps
+|            |     |                             |     |        |  |     +**| (56)
+|            |     |                             |     |        |  |     |  +--Alternaria_triticimaculans_XP_049219272.1_nrps
+|            |     |                             |     |        |  |  +--| (100)
+|            |     |                             |     |        |  |  |  +--Alternaria_incomplexa_KAI4906425.1_nrps
+|            |     |                             |     |        |  +--| (64)
+|            |     |                             |     |        |     +--Alternaria_conjuncta_KAI4912347.1_nrps
+|            |     |                             |     |     +--| (100)
+|            |     |                             |     |     |  +--Alternaria_ventricosa_XP_049202952.1_nrps
+|            |     |                             |     |  +--| (100)
+|            |     |                             |     |  |  +--Alternaria_rosae_XP_046029353.1_nrps
+|            |     |                             |     +--| (100)
+|            |     |                             |        |  +**Alternaria_metachromatica_XP_049184125.1_nrps
+|            |     |                             |        +--| (100)
+|            |     |                             |           +**Alternaria_viburni_XP_049205494.1_nrps
+|            |     |                          +--| (100)
+|            |     |                          |  +--Didymosphaeria_enalia_KAF2258812.1_nrps
+|            |     |                       +--| (99)
+|            |     |                       |  |  +--Lentithecium_fluviatile_KAF2690734.1_nrps
+|            |     |                       |  +--| (100)
+|            |     |                       |     +--Trematosphaeria_pertusa_XP_033685156.1_nrps
+|            |     |                    +--| (100)
+|            |     |                    |  |     +--Ascochyta_lentis_KAF9691933.1_nrps
+|            |     |                    |  |  +--| (100)
+|            |     |                    |  |  |  +--Lizonia_empirigonia_KAF1358040.1_nrps
+|            |     |                    |  +--| (100)
+|            |     |                    |     +--Boeremia_exigua_KAH6629308.1_nrps
+|            |     |                 +**| (79)
+|            |     |                 |  |            +--Cordyceps_militaris_EGX88288.1_nrps
+|            |     |                 |  |         +--| (100)
+|            |     |                 |  |         |  +--Cordyceps_fumosorosea_XP_018700494.1_nrps
+|            |     |                 |  |      +--| (97)
+|            |     |                 |  |      |  |  +--Akanthomyces_lecanii_OAA72981.1_nrps
+|            |     |                 |  |      |  +--| (99)
+|            |     |                 |  |      |     |  +--Beauveria_brongniartii_OAA35483.1_nrps
+|            |     |                 |  |      |     +--| (100)
+|            |     |                 |  |      |        +--Beauveria_bassiana_PQK13146.1_nrps
+|            |     |                 |  |  +---| (100)
+|            |     |                 |  |  |   +--Cordyceps_javanica_TQW02302.1_nrps
+|            |     |                 |  +--| (37)
+|            |     |                 |     +--Cladophialophora_psammophila_XP_007744155.1_nrps
+|            |     |              +--| (34)
+|            |     |              |  +-------------------------------------------Penicillium_brasilianum_CEJ59956.1_nrps
+|            |     |           +--| (40)
+|            |     |           |  |                 +--KAI1827495.1_split
+|            |     |           |  |              +--| (85)
+|            |     |           |  |              |  +--Xylaria_nigripes_KAI2634467.1_nrps
+|            |     |           |  |           +--| (84)
+|            |     |           |  |           |  +--Xylaria_hypoxylon_TGJ79002.1_nrps
+|            |     |           |  |        +--| (84)
+|            |     |           |  |        |  |  +--fungal_sp_No14919_GAW22020.1_nrps
+|            |     |           |  |        |  +--| (100)
+|            |     |           |  |        |     +--Xylaria_grammica_KAI0422312.1_nrps
+|            |     |           |  |     +--| (100)
+|            |     |           |  |     |  +--Xylaria_palmicola_KAI0399761.1_nrps
+|            |     |           |  |  +--| (100)
+|            |     |           |  |  |  |           +--Xylariaceae_sp_FL0594_KAI0398592.1_nrps
+|            |     |           |  |  |  |        +--| (100)
+|            |     |           |  |  |  |        |  |     +--Nemania_serpens_KAI1185029.1_nrps
+|            |     |           |  |  |  |        |  |  +--| (89)
+|            |     |           |  |  |  |        |  |  |  |     +--Xylaria_sp_FL1777_KAI1418874.1_nrps
+|            |     |           |  |  |  |        |  |  |  |  +--| (100)
+|            |     |           |  |  |  |        |  |  |  |  |  +--Xylaria_arbuscula_KAI1363917.1_nrps
+|            |     |           |  |  |  |        |  |  |  +--| (100)
+|            |     |           |  |  |  |        |  |  |     +--Xylaria_bambusicola_XP_047832783.1_nrps
+|            |     |           |  |  |  |        |  +--| (89)
+|            |     |           |  |  |  |        |     +--Nemania_sp_FL0916_KAI1172681.1_nrps
+|            |     |           |  |  |  |     +--| (100)
+|            |     |           |  |  |  |     |  +--Nemania_sp_NC0429_KAI1111738.1_nrps
+|            |     |           |  |  |  |  +--| (100)
+|            |     |           |  |  |  |  |  +---Astrocystis_sublimbata_KAI0188862.1_nrps
+|            |     |           |  |  |  +--| (100)
+|            |     |           |  |  |     |  +--Xylariaceae_sp_FL1272_KAI0164569.1_nrps
+|            |     |           |  |  |     +--| (100)
+|            |     |           |  |  |        +--Xylariaceae_sp_FL1019_KAI1266947.1_nrps
+|            |     |           |  +--| (95)
+|            |     |           |     |                 +--CAG9975145.1_split
+|            |     |           |     |              +--| (99)
+|            |     |           |     |              |  +--CAH0023179.1_split
+|            |     |           |     |           +--| (98)
+|            |     |           |     |           |  +--CAH0051384.1_split
+|            |     |           |     |        +--| (100)
+|            |     |           |     |        |  +--VUC29925.1_split
+|            |     |           |     |     +--| (87)
+|            |     |           |     |     |  |  +--Verticillium_dahliae_PNH27774.1_nrps
+|            |     |           |     |     |  +--| (97)
+|            |     |           |     |     |     +--Verticillium_nonalfalfae_XP_028495418.1_nrps
+|            |     |           |     |  +--| (82)
+|            |     |           |     |  |  |     +--Grosmannia_clavigera_EFX05940.1_nrps
+|            |     |           |     |  |  |  +--| (96)
+|            |     |           |     |  |  |  |  |  +--Emericellopsis_atlantica_KAG9253419.1_nrps
+|            |     |           |     |  |  |  |  +--| (100)
+|            |     |           |     |  |  |  |     +--Emericellopsis_cladophorae_KAI6779256.1_nrps
+|            |     |           |     |  |  +--| (91)
+|            |     |           |     |  |     |           +--Penicillium_oxalicum_EPS31139.1_nrps
+|            |     |           |     |  |     |        +--| (83)
+|            |     |           |     |  |     |        |  |     +--Penicillium_expansum_KGO45434.1_nrps
+|            |     |           |     |  |     |        |  |  +--| (100)
+|            |     |           |     |  |     |        |  |  |  +--Penicillium_digitatum_QQK43488.1_nrps
+|            |     |           |     |  |     |        |  +--| (100)
+|            |     |           |     |  |     |        |     |     +--Penicillium_freii_KUM56496.1_nrps
+|            |     |           |     |  |     |        |     |  +--| (100)
+|            |     |           |     |  |     |        |     |  |  +--Penicillium_polonicum_OQD71929.1_nrps
+|            |     |           |     |  |     |        |     +--| (100)
+|            |     |           |     |  |     |        |        |     +**Penicillium_sp_str_12_KAF4763112.1_nrps
+|            |     |           |     |  |     |        |        |  +--| (100)
+|            |     |           |     |  |     |        |        |  |  +**Penicillium_solitum_XP_040808341.1_nrps
+|            |     |           |     |  |     |        |        +--| (100)
+|            |     |           |     |  |     |        |           +--Penicillium_crustosum_KAF7517455.1_nrps
+|            |     |           |     |  |     |     +--| (96)
+|            |     |           |     |  |     |     |  +--Talaromyces_proteolyticus_XP_046075778.1_nrps
+|            |     |           |     |  |     |  +--| (19)
+|            |     |           |     |  |     |  |  +--Talaromyces_stipitatus_XP_002483260.1_nrps
+|            |     |           |     |  |     +--| (100)
+|            |     |           |     |  |        |        +--Talaromyces_islandicus_CRG90102.1_nrps
+|            |     |           |     |  |        |     +--| (98)
+|            |     |           |     |  |        |     |  |     +--Talaromyces_cellulolyticus_GAM39784.1_nrps
+|            |     |           |     |  |        |     |  |  +--| (100)
+|            |     |           |     |  |        |     |  |  |  |  +--Penicillium_sp_occitanis_PCH06140.1_nrps
+|            |     |           |     |  |        |     |  |  |  +**| (56)
+|            |     |           |     |  |        |     |  |  |     +--Talaromyces_pinophilus_KAF3404987.1_nrps
+|            |     |           |     |  |        |     |  +--| (100)
+|            |     |           |     |  |        |     |     +--Talaromyces_verruculosus_KUL91656.1_nrps
+|            |     |           |     |  |        |  +--| (97)
+|            |     |           |     |  |        |  |  +--Talaromyces_marneffei_KAE8554211.1_nrps
+|            |     |           |     |  |        +--| (100)
+|            |     |           |     |  |           +--Talaromyces_amestolkiae_XP_040736961.1_nrps
+|            |     |           |     +--| (93)
+|            |     |           |        |                    +--Aspergillus_fischeri_EAW21206.1_nrps
+|            |     |           |        |                 +--| (94)
+|            |     |           |        |                 |  +--Aspergillus_fumigatus_XP_754255.1_nrps
+|            |     |           |        |              +**| (51)
+|            |     |           |        |              |  |  +--Aspergillus_turcosus_RHZ63003.1_nrps
+|            |     |           |        |              |  +--| (92)
+|            |     |           |        |              |     +--Aspergillus_hiratsukae_KAF7133698.1_nrps
+|            |     |           |        |           +--| (97)
+|            |     |           |        |           |  |  +--Aspergillus_lentulus_GFF71240.1_nrps
+|            |     |           |        |           |  +--| (96)
+|            |     |           |        |           |     +--Aspergillus_fumigatiaffinis_KAF4248699.1_nrps
+|            |     |           |        |        +--| (92)
+|            |     |           |        |        |  |     +--Aspergillus_carbonarius_OOF98727.1_nrps
+|            |     |           |        |        |  |  +--| (100)
+|            |     |           |        |        |  |  |  +--Aspergillus_sclerotioniger_XP_025466311.1_nrps
+|            |     |           |        |        |  +--| (100)
+|            |     |           |        |        |     +--Aspergillus_sclerotiicarbonarius_PYI03572.1_nrps
+|            |     |           |        |     +--| (97)
+|            |     |           |        |     |  +--Aspergillus_thermomutatus_RHZ54872.1_nrps
+|            |     |           |        |  +--| (95)
+|            |     |           |        |  |  |  +**Aspergillus_rambellii_KKK24685.1_nrps
+|            |     |           |        |  |  +--| (100)
+|            |     |           |        |  |     +--Aspergillus_ochraceoroseus_PTU19038.1_nrps
+|            |     |           |        +--| (69)
+|            |     |           |           |                       +--Trichophyton_equinum_EGE05591.1_nrps
+|            |     |           |           |                    +--| (100)
+|            |     |           |           |                    |  +--Trichophyton_interdigitale_KAG8206050.1_nrps
+|            |     |           |           |                 +--| (100)
+|            |     |           |           |                 |  |        +**Trichophyton_soudanense_EZF79037.1_nrps
+|            |     |           |           |                 |  |     +**| (63)
+|            |     |           |           |                 |  |     |  +**Trichophyton_rubrum_KMQ41408.1_nrps
+|            |     |           |           |                 |  |  +--| (100)
+|            |     |           |           |                 |  |  |  +--Trichophyton_violaceum_OAL68961.1_nrps
+|            |     |           |           |                 |  +--| (99)
+|            |     |           |           |                 |     |  +--Trichophyton_benhamiae_DAA76167.1_nrps
+|            |     |           |           |                 |     +--| (98)
+|            |     |           |           |                 |        +--Trichophyton_verrucosum_XP_003021174.1_nrps
+|            |     |           |           |              +--| (100)
+|            |     |           |           |              |  +--Nannizzia_gypsea_XP_003169292.1_nrps
+|            |     |           |           |           +--| (100)
+|            |     |           |           |           |  +--Microsporum_canis_XP_002842847.1_nrps
+|            |     |           |           |        +--| (100)
+|            |     |           |           |        |  +--Arthroderma_uncinatum_XP_033408357.1_nrps
+|            |     |           |           |     +--| (46)
+|            |     |           |           |     |  |                       +--Metarhizium_anisopliae_KJK83196.1_nrps
+|            |     |           |           |     |  |                    +--| (90)
+|            |     |           |           |     |  |                    |  +--Metarhizium_brunneum_QLI64307.1_nrps
+|            |     |           |           |     |  |                 +**| (90)
+|            |     |           |           |     |  |                 |  +--Metarhizium_humberi_KAH0600808.1_nrps
+|            |     |           |           |     |  |              +--| (100)
+|            |     |           |           |     |  |              |  +--Metarhizium_robertsii_EXV04551.1_nrps
+|            |     |           |           |     |  |           +--| (100)
+|            |     |           |           |     |  |           |  +--Metarhizium_guizhouense_KID90510.1_nrps
+|            |     |           |           |     |  |        +--| (100)
+|            |     |           |           |     |  |        |  +--Metarhizium_majus_XP_014578744.1_nrps
+|            |     |           |           |     |  |     +--| (100)
+|            |     |           |           |     |  |     |  +--Metarhizium_acridum_XP_007808063.1_nrps
+|            |     |           |           |     |  |  +--| (100)
+|            |     |           |           |     |  |  |  +--Pochonia_chlamydosporia_XP_022284604.1_nrps
+|            |     |           |           |     |  +--| (99)
+|            |     |           |           |     |     |     +--Trichoderma_atroviride_EHK42400.1_nrps
+|            |     |           |           |     |     |  +--| (100)
+|            |     |           |           |     |     |  |  +--Trichoderma_gamsii_XP_018666334.1_nrps
+|            |     |           |           |     |     +--| (100)
+|            |     |           |           |     |        |  +--Trichoderma_asperelloides_KAH8127508.1_nrps
+|            |     |           |           |     |        +--| (100)
+|            |     |           |           |     |           +--Trichoderma_asperellum_XP_024755820.1_nrps
+|            |     |           |           |  +--| (48)
+|            |     |           |           |  |  |     +--Trichoderma_virens_EHK24062.1_nrps
+|            |     |           |           |  |  |  +--| (100)
+|            |     |           |           |  |  |  |  |  +--Trichoderma_guizhouense_OPB41765.1_nrps
+|            |     |           |           |  |  |  |  +--| (97)
+|            |     |           |           |  |  |  |     |     +--Trichoderma_lentiforme_KAF3071615.1_nrps
+|            |     |           |           |  |  |  |     |  +--| (97)
+|            |     |           |           |  |  |  |     |  |  |  +--Trichoderma_simmonsii_QYS95457.1_nrps
+|            |     |           |           |  |  |  |     |  |  +--| (75)
+|            |     |           |           |  |  |  |     |  |     +--Trichoderma_semiorbis_KAH0528981.1_nrps
+|            |     |           |           |  |  |  |     +--| (96)
+|            |     |           |           |  |  |  |        +--Trichoderma_harzianum_XP_024769518.1_nrps
+|            |     |           |           |  |  +--| (100)
+|            |     |           |           |  |     +--Trichoderma_arundinaceum_RFU77965.1_nrps
+|            |     |           |           +--| (43)
+|            |     |           |              |  +--Neonectria_ditissima_KPM40578.1_nrps
+|            |     |           |              +--| (28)
+|            |     |           |                 +--Cylindrodendrum_hubeiense_KAF7556944.1_nrps
+|            |     |        +--| (47)
+|            |     |        |  |     +--Cenococcum_geophilum_OCK97870.1_nrps
+|            |     |        |  |  +--| (100)
+|            |     |        |  |  |  +--Capronia_epimyces_XP_007733780.1_nrps
+|            |     |        |  +--| (63)
+|            |     |        |     |        +--Corynespora_cassiicola_PSN69555.1_nrps
+|            |     |        |     |     +--| (85)
+|            |     |        |     |     |  |        +--Clonostachys_byssicola_CAG9985190.1_nrps
+|            |     |        |     |     |  |     +**| (83)
+|            |     |        |     |     |  |     |  +--Clonostachys_rosea_VUC22207.1_nrps
+|            |     |        |     |     |  |  +--| (83)
+|            |     |        |     |     |  |  |  +--Clonostachys_rhizophaga_CAH0016865.1_nrps
+|            |     |        |     |     |  +--| (100)
+|            |     |        |     |     |     +--Clonostachys_solani_CAH0048199.1_nrps
+|            |     |        |     |  +--| (69)
+|            |     |        |     |  |  +--Amniculicola_lignicola_KAF2001389.1_nrps
+|            |     |        |     +--| (68)
+|            |     |        |        |  +--Chaetothyriales_sp_CBS_134920_RMD43204.1_nrps
+|            |     |        |        +--| (100)
+|            |     |        |           +--Chaetothyriales_sp_CBS_135597_RMZ77957.1_nrps
+|            |     |     +--| (58)
+|            |     |     |  +--Pyrenochaeta_sp_DS3sAY3a_OAL45143.1_nrps
+|            |     |  +--| (59)
+|            |     |  |  +--Didymosphaeria_enalia_KAF2270327.1_nrps
+|            |     +--| (35)
+|            |        |           +--KAG6999329.1_split
+|            |        |        +--| (89)
+|            |        |        |  |        +--KAI4087436.1_split
+|            |        |        |  |     +--| (100)
+|            |        |        |  |     |  +--KAI4113947.1_split
+|            |        |        |  |  +--| (100)
+|            |        |        |  |  |  |  +--KAI4148356.1_split
+|            |        |        |  |  |  +--| (100)
+|            |        |        |  |  |     +--KAI4289416.1_split
+|            |        |        |  +--| (90)
+|            |        |        |     +--KAI4087815.1_split
+|            |        |     +--| (64)
+|            |        |     |  |        +--KAI4132167.1_split
+|            |        |     |  |     +--| (90)
+|            |        |     |  |     |  +--KAI4198520.1_split
+|            |        |     |  |  +--| (82)
+|            |        |     |  |  |  +--KAI4176560.1_split
+|            |        |     |  +--| (63)
+|            |        |     |     +--KAI4244082.1_split
+|            |        |  +--| (88)
+|            |        |  |  |  +--KAI4183817.1_split
+|            |        |  |  +--| (100)
+|            |        |  |     +--KAI4175354.1_split
+|            |        +--| (81)
+|            |           +--XP_008080493.1_split
+|         +--| (98)
+|         |  |                       +--KAF4476776.1_split
+|         |  |                    +--| (92)
+|         |  |                    |  +--XP_037171875.1_split
+|         |  |                 +--| (80)
+|         |  |                 |  |  +--KAF4852212.1_split
+|         |  |                 |  +--| (88)
+|         |  |                 |     |  +--KAF4900571.1_split
+|         |  |                 |     +--| (96)
+|         |  |                 |        +--KAH9232576.1_split
+|         |  |              +--| (100)
+|         |  |              |  |  +--KAF0327435.1_split
+|         |  |              |  +--| (100)
+|         |  |              |     +--KAF4818153.1_split
+|         |  |           +--| (100)
+|         |  |           |  +--KAH0423461.1_split
+|         |  |        +--| (100)
+|         |  |        |  |                                          +--EMT68996.1_split
+|         |  |        |  |                                       +--| (100)
+|         |  |        |  |                                       |  +--TVY60237.1_split
+|         |  |        |  |                                    +--| (100)
+|         |  |        |  |                                    |  +--KAH7147697.1_split
+|         |  |        |  |                                 +--| (100)
+|         |  |        |  |                                 |  |                    +--QGI70967.1_split
+|         |  |        |  |                                 |  |                 +--| (98)
+|         |  |        |  |                                 |  |                 |  +--KAF5716871.1_split
+|         |  |        |  |                                 |  |              +--| (98)
+|         |  |        |  |                                 |  |              |  |  +--RKL38797.1_split
+|         |  |        |  |                                 |  |              |  +--| (100)
+|         |  |        |  |                                 |  |              |     +--KAI1066238.1_split
+|         |  |        |  |                                 |  |           +--| (67)
+|         |  |        |  |                                 |  |           |  |  +--KAF5644396.1_split
+|         |  |        |  |                                 |  |           |  +--| (99)
+|         |  |        |  |                                 |  |           |     +--XP_041688445.1_split
+|         |  |        |  |                                 |  |        +--| (99)
+|         |  |        |  |                                 |  |        |  +--KAI1016476.1_split
+|         |  |        |  |                                 |  |     +--| (64)
+|         |  |        |  |                                 |  |     |  |           +--KAF5249356.1_split
+|         |  |        |  |                                 |  |     |  |        +--| (100)
+|         |  |        |  |                                 |  |     |  |        |  +----KAF5980296.1_split
+|         |  |        |  |                                 |  |     |  |     +--| (100)
+|         |  |        |  |                                 |  |     |  |     |  +--XP_036542836.1_split
+|         |  |        |  |                                 |  |     |  |  +--| (100)
+|         |  |        |  |                                 |  |     |  |  |  +--KAF5549359.1_split
+|         |  |        |  |                                 |  |     |  +--| (99)
+|         |  |        |  |                                 |  |     |     +--KAF5635992.1_split
+|         |  |        |  |                                 |  |  +--| (97)
+|         |  |        |  |                                 |  |  |  |           +--PNP83827.1_split
+|         |  |        |  |                                 |  |  |  |        +--| (96)
+|         |  |        |  |                                 |  |  |  |        |  +--XP_037206990.1_split
+|         |  |        |  |                                 |  |  |  |     +--| (93)
+|         |  |        |  |                                 |  |  |  |     |  |  +--KAF5597649.1_split
+|         |  |        |  |                                 |  |  |  |     |  +--| (97)
+|         |  |        |  |                                 |  |  |  |     |     +--KAF5685298.1_split
+|         |  |        |  |                                 |  |  |  |  +--| (100)
+|         |  |        |  |                                 |  |  |  |  |  +--KAF5579090.1_split
+|         |  |        |  |                                 |  |  |  +--| (100)
+|         |  |        |  |                                 |  |  |     +--KAG5781089.1_split
+|         |  |        |  |                                 |  +--| (100)
+|         |  |        |  |                                 |     +--KAF4961240.1_split
+|         |  |        |  |                              +--| (100)
+|         |  |        |  |                              |  |     +--KAF0638020.1_split
+|         |  |        |  |                              |  |  +--| (100)
+|         |  |        |  |                              |  |  |  |  +--PTD02110.1_split
+|         |  |        |  |                              |  |  |  +--| (100)
+|         |  |        |  |                              |  |  |     +--CEF76455.1_split
+|         |  |        |  |                              |  +--| (100)
+|         |  |        |  |                              |     |     +--OBS23240.1_split
+|         |  |        |  |                              |     |  +--| (100)
+|         |  |        |  |                              |     |  |  +--KAH6991832.1_split
+|         |  |        |  |                              |     +--| (96)
+|         |  |        |  |                              |        |  +--RGP67291.1_split
+|         |  |        |  |                              |        +--| (100)
+|         |  |        |  |                              |           +--Fusarium_langsethiae_GKU06934.1_nrps
+|         |  |        |  |                           +--| (100)
+|         |  |        |  |                           |  +--KAE9374075.1_split
+|         |  |        |  |                        +--| (100)
+|         |  |        |  |                        |  +--KAF4467008.1_split
+|         |  |        |  |                     +--| (100)
+|         |  |        |  |                     |  |     +--RMJ02432.1_split
+|         |  |        |  |                     |  |  +--| (100)
+|         |  |        |  |                     |  |  |  +--RTE69451.1_split
+|         |  |        |  |                     |  +--| (100)
+|         |  |        |  |                     |     +--RSL38657.1_split
+|         |  |        |  |                  +--| (100)
+|         |  |        |  |                  |  +--KAF4945802.1_split
+|         |  |        |  |               +--| (100)
+|         |  |        |  |               |  +--QPG98311.1_split
+|         |  |        |  |            +--| (98)
+|         |  |        |  |            |  +--KAI1268145.1_split
+|         |  |        |  |        +---| (100)
+|         |  |        |  |        |   +--XP_046010844.1_split
+|         |  |        |  |     +--| (100)
+|         |  |        |  |     |  +--KAH8880463.1_split
+|         |  |        |  |  +--| (100)
+|         |  |        |  |  |  +--OAA59696.1_split
+|         |  |        |  +--| (94)
+|         |  |        |     |           +--KAH7129551.1_split
+|         |  |        |     |        +--| (100)
+|         |  |        |     |        |  +--KAH7123087.1_split
+|         |  |        |     |     +--| (55)
+|         |  |        |     |     |  +--KAF7551265.1_split
+|         |  |        |     |  +--| (55)
+|         |  |        |     |  |  +--KAH6999778.1_split
+|         |  |        |     +--| (55)
+|         |  |        |        |           +--MCJ1315357.1_split
+|         |  |        |        |        +--| (100)
+|         |  |        |        |        |  +--MCJ1294905.1_split
+|         |  |        |        |     +--| (100)
+|         |  |        |        |     |  +--MCJ1283549.1_split
+|         |  |        |        |  +--| (100)
+|         |  |        |        |  |  |  +--MCJ1419551.1_split
+|         |  |        |        |  |  +--| (100)
+|         |  |        |        |  |     +--MCJ1433652.1_split
+|         |  |        |        +--| (100)
+|         |  |        |           +--MCJ1385508.1_split
+|         |  |     +--| (98)
+|         |  |     |  |        +--KXH33808.1_split
+|         |  |     |  |     +--| (100)
+|         |  |     |  |     |  |     +--KAI3559025.1_split
+|         |  |     |  |     |  |  +--| (84)
+|         |  |     |  |     |  |  |  +--KAI3528182.1_split
+|         |  |     |  |     |  +--| (100)
+|         |  |     |  |     |     +--XP_049153019.1_split
+|         |  |     |  |  +--| (81)
+|         |  |     |  |  |  |        +--KAF5250787.1_split
+|         |  |     |  |  |  |     +--| (100)
+|         |  |     |  |  |  |     |  |     +--KAF5598633.1_split
+|         |  |     |  |  |  |     |  |  +--| (100)
+|         |  |     |  |  |  |     |  |  |  +--KAF5687172.1_split
+|         |  |     |  |  |  |     |  +--| (91)
+|         |  |     |  |  |  |     |     |     +--KAF5539463.1_split
+|         |  |     |  |  |  |     |     |  +--| (100)
+|         |  |     |  |  |  |     |     |  |  +--KAF5691722.1_split
+|         |  |     |  |  |  |     |     +**| (87)
+|         |  |     |  |  |  |     |        +--KAF5977409.1_split
+|         |  |     |  |  |  |  +--| (100)
+|         |  |     |  |  |  |  |  |  +--KAF5655011.1_split
+|         |  |     |  |  |  |  |  +--| (100)
+|         |  |     |  |  |  |  |     +--KAI1018633.1_split
+|         |  |     |  |  |  +--| (100)
+|         |  |     |  |  |     +--KAG5773904.1_split
+|         |  |     |  +--| (100)
+|         |  |     |     |  +--KAF4996084.1_split
+|         |  |     |     +--| (100)
+|         |  |     |        +--KAF4463402.1_split
+|         |  |  +--| (96)
+|         |  |  |  +--KAH6873804.1_split
+|         |  +--| (100)
+|         |     +--KAF5013927.1_split
++---------| (100)
+|         |     +------KZZ97445.1_split
+|         |  +--| (92)
+|         |  |  |     +--EHK49128.1_split
+|         |  |  |  +--| (100)
+|         |  |  |  |  +--XP_018663353.1_split
+|         |  |  +--| (100)
+|         |  |     |  +--KAH8130639.1_split
+|         |  |     +--| (100)
+|         |  |        +--XP_024763206.1_split
+|         +--| (95)
+|            |        +--KAH7140156.1_split
+|            |     +--| (100)
+|            |     |  +--KAH7166367.1_split
+|            |  +--| (88)
+|            |  |  +--KAF7552329.1_split
+|            +--| (100)
+|               |  +--KAH6982671.1_split
+|               +--| (100)
+|                  +--KAH6957909.1_split
+|
+|                    +--TPX20322.1_split
+|                 +--| (100)
+|                 |  +--XP_003072098.1_split
+|              +--| (100)
+|              |  |  +--OQD71289.1_split
+|              |  +--| (100)
+|              |     +--XP_040649207.1_split
+|           +--| (98)
+|           |  |  +--KAF1919509.1_split
+|           |  +--| (100)
+|           |     +--KAI0429011.1_split
+|        +--| (100)
+|        |  +--XP_003171298.1_split
+|     +--| (100)
+|     |  +--XP_033402118.1_split
+|  +--| (100)
+|  |  |  +--MCJ1387732.1_split
+|  |  +--| (98)
+|  |     |  +--MCJ1314533.1_split
+|  |     +--| (100)
+|  |        |  +--KAI4167695.1_split
+|  |        +--| (100)
+|  |           +--XP_044664487.1_split
++--| (99)
+   |              +--RYP10552.1_split
+   |           +--| (100)
+   |           |  |  +--RYP71970.1_split
+   |           |  +--| (100)
+   |           |     +--RYP43738.1_split
+   |        +--| (97)
+   |        |  +--RYP70479.1_split
+   |     +--| (98)
+   |     |  |     +**RYP33552.1_split
+   |     |  |  +--| (100)
+   |     |  |  |  +**RYO82911.1_split
+   |     |  +--| (100)
+   |     |     +--RYP15307.1_split
+   |  +--| (100)
+   |  |  +--RYP62963.1_split
+   +--| (100)
+      +--KAI1249353.1_split
+
+Tree in newick format:
+
+(XP_748589.2_NRPS-like-enzyme:2.2904008952,(((((((((((ETI29378.1_split:0.0911112903,(KIW62367.1_split:0.0725613641,XP_013253686.1_split:0.1534314300)96:0.0165139100)100:0.0512963920,(((((((((EMT71252.1_split:0.0106054375,TVY68268.1_split:0.0099380959)100:0.0133474800,KAH7154173.1_split:0.0197184136)100:0.0080657069,(((KAF4500682.1_split:0.0233770838,((KAF5254629.1_split:0.0112457180,(KAF5557414.1_split:0.0115039639,XP_036540337.1_split:0.0149665366)81:0.0028124468)87:0.0019117645,(KAF5979539.1_split:0.0061798311,KAF5686004.1_split:0.0079609342)100:0.0042578734)100:0.0135003127)100:0.0209945630,(((((((((RBQ68774.1_split:0.0080707392,XP_044675052.1_split:0.0068726368)100:0.0102719544,KAF5981079.1_split:0.0137802256)94:0.0042073382,PNP81105.1_split:0.0132301956)94:0.0044878222,(KAF5589598.1_split:0.0301740877,(KAF5565221.1_split:0.0173476203,XP_037203802.1_split:0.0246689633)91:0.0055201307)99:0.0034913179)99:0.0042063611,KAF5597173.1_split:0.0411952969)99:0.0046832020,KAF5695110.1_split:0.0305168797)99:0.0063845679,KAF5715932.1_split:0.0278751190)100:0.0138817006,(KAF5565682.1_split:0.0257559119,KAG5780768.1_split:0.0274567218)100:0.0087791556)79:0.0046226199,KAI1021066.1_split:0.0711414636)62:0.0015013260)44:0.0014136225,((((QGI70075.1_split:0.0191042258,(RKL44236.1_split:0.0033982869,KAI1064558.1_split:0.0022726901)100:0.0061855870)100:0.0099661244,KAF5707538.1_split:0.0177174074)99:0.0115913429,(KAF5651976.1_split:0.0239769235,XP_041683486.1_split:0.0186920580)99:0.0056283785)99:0.0115381595,KAF5624378.1_split:0.0435928981)40:0.0035852909)100:0.0128762281)99:0.0062126396,KAF4961575.1_split:0.0371020578)100:0.0229041418,XP_046045061.1_split:0.0425331278)100:0.0254771405,(KAF4345085.1_split:0.0673807035,KAF9766433.1_split:0.0464695429)100:0.0354310348)100:0.0199265954,KAF4454195.1_split:0.0811206942)100:0.0280702892,(((RFN52730.1_split:0.0294725498,(KAI1060859.1_split:0.0290736941,XP_031016708.1_split:0.0380690944)84:0.0046697507)82:0.0016973112,CAG7559788.1_split:0.0527397679)100:0.0431014962,(((KAF0635058.1_split:0.0111822908,(PTD07815.1_split:0.0077375897,(KAF5238437.1_split:0.0034091906,CEF78594.1_split:0.0023845916)100:0.0099869322)100:0.0032294139)100:0.0546228779,((OBS25042.1_split:0.0320107147,KAH6993714.1_split:0.0513820876)62:0.0045670624,RGP74565.1_split:0.0700601096)85:0.0083642051)100:0.0272257305,RGP80029.1_split:0.1191639394)100:0.0219387040)100:0.0915935519)100:0.0960163918,KAH6981580.1_split:0.1785497285)100:0.0419342958)98:0.0176374515,(KAF1982044.1_split:0.0907371934,(KAH8767597.1_split:0.0049520932,KAH8748815.1_split:0.0019190963)100:0.0590555961)99:0.0142290472)99:0.0403598285,KAE9367493.1_split:0.1373224222)99:0.0209271779,(((((KIW83143.1_split:0.0057859729,XP_022517429.1_split:0.0060071297)100:0.0037600027,XP_022496747.1_split:0.0141106036)100:0.0256449949,XP_016263412.1_split:0.0442897544)100:0.1057290964,((TID19575.1_split:0.0703220689,KAE9991798.1_split:0.0337316139)100:0.1083385847,KAF2420725.1_split:0.0938846062)98:0.0180635695)100:0.0133015715,(((((KAF2439235.1_split:0.0493108719,XP_018033694.1_split:0.0723221496)100:0.0445960997,XP_008022607.1_split:0.0961010668)69:0.0060060817,XP_033541383.1_split:0.0241532457)69:0.0113927367,KAF2648717.1_split:0.0968471433)100:0.1000654594,((KAG9241248.1_split:0.0514381334,KAH7317459.1_split:0.0267624491)100:0.0506755544,XP_008078390.1_split:0.1418848401)100:0.0253732309)100:0.0102661663)100:0.2978396643)99:0.0546885954,KIM94081.1_split:0.1450969646)99:0.1161808407,(QIX01997.1_split:0.2919838676,(((KXT02248.1_split:0.1696418578,XP_033672321.1_split:0.1737276207)82:0.0869999106,SMR58341.1_split:0.4500139298)77:0.0561333341,((KAH9843365.1_split:0.0694427467,KAF2764178.1_split:0.0856078071)100:0.4023034258,KAF2154527.1_split:0.3620834621)100:0.0494896220)71:0.0457755739)70:0.0719578660)52:0.0317690488,(KAF1945053.1_split:0.1658876000,(KAF2846132.1_split:0.1040638236,(KAH9869829.1_split:0.0686451199,KAH9861366.1_split:0.0484250242)100:0.0523406025)100:0.2899980652)100:0.0677769147)61:0.0250213222,(ORY16213.1_split:0.2838199071,((((((((((((((PSN59017.1_split:0.5447199386,(Bipolaris_sorokiniana_XP_007696074.1_nrps:0.0190891564,((Bipolaris_maydis_XP_014072682.1_nrps:0.0333986060,Bipolaris_oryzae_XP_007692129.1_nrps:0.0352301774)33:0.0056987034,(Bipolaris_victoriae_XP_014558639.1_nrps:0.0122651963,Bipolaris_zeicola_XP_007717065.1_nrps:0.0063092066)100:0.0156782077)31:0.0039110723)90:0.0698504315)88:0.0144952137,Curvularia_clavata_USP76830.1_nrps:0.1063251353)100:0.0516435177,(((KAG9185430.1_split:0.1223752068,Clathrospora_elynae_KAF1934949.1_nrps:0.2033178373)100:0.0561478580,Bipolaris_zeicola_XP_007718658.1_nrps:0.2808392887)100:0.0809515965,Exserohilum_turcicum_XP_008020935.1_nrps:0.3143418207)100:0.0838631276)100:0.0707005626,((((Alternaria_alternata_OWY45736.1_nrps:0.0056724109,Alternaria_arborescens_XP_028501020.1_nrps:0.0148584873)100:0.0188947167,Alternaria_postmessia_KAI5365607.1_nrps:0.0232171479)100:0.0070619750,((Alternaria_sp_MG1_RII22453.1_nrps:0.0049290547,Alternaria_burnsii_XP_038781501.1_nrps:0.0133773465)100:0.0299409844,(Alternaria_tenuissima_RYN54236.1_nrps:0.0246027266,Alternaria_gaisen_KAB2098972.1_nrps:0.0193116566)100:0.0190395397)99:0.0080816144)100:0.1279745283,((((((((Alternaria_sp_Ai002NY15_KAI4703537.1_nrps:0.0147727047,(Alternaria_arbusti_KAI4940317.1_nrps:0.0000010001,Alternaria_infectoria_KAI4912202.1_nrps:0.0033711356)78:0.0000020285)100:0.0045106416,Alternaria_hordeiaustralica_XP_049239373.1_nrps:0.0033770315)99:0.0013268463,(Alternaria_sp_BMP_2799_KAI4676254.1_nrps:0.0205229837,Alternaria_novaezelandiae_XP_049249900.1_nrps:0.0207597435)80:0.0022467430)100:0.0110635967,Alternaria_ethzedia_XP_049228601.1_nrps:0.0080648455)56:0.0019216939,(((Alternaria_sp_BMP_0032_KAI4606514.1_nrps:0.0045268507,Alternaria_triticimaculans_XP_049219272.1_nrps:0.0022622458)56:0.0000010001,Alternaria_incomplexa_KAI4906425.1_nrps:0.0033971761)100:0.0086969345,Alternaria_conjuncta_KAI4912347.1_nrps:0.0248467620)64:0.0021534906)98:0.0055695902,Alternaria_ventricosa_XP_049202952.1_nrps:0.0202438876)100:0.0226369815,Alternaria_rosae_XP_046029353.1_nrps:0.0439241975)100:0.0313637330,(Alternaria_metachromatica_XP_049184125.1_nrps:0.0000010001,Alternaria_viburni_XP_049205494.1_nrps:0.0000010001)100:0.0854664563)100:0.0826682251)100:0.0448838374)100:0.0382284421,Didymosphaeria_enalia_KAF2258812.1_nrps:0.0649476332)100:0.1377921297,(Lentithecium_fluviatile_KAF2690734.1_nrps:0.0864888618,Trematosphaeria_pertusa_XP_033685156.1_nrps:0.0601826238)100:0.0295987541)99:0.0127627453,((Ascochyta_lentis_KAF9691933.1_nrps:0.1732598986,Lizonia_empirigonia_KAF1358040.1_nrps:0.0964145273)100:0.0902067730,Boeremia_exigua_KAH6629308.1_nrps:0.2515054876)100:0.0685540222)100:0.0927090380,((((Cordyceps_militaris_EGX88288.1_nrps:0.0845351754,Cordyceps_fumosorosea_XP_018700494.1_nrps:0.1381757637)100:0.0464843514,(Akanthomyces_lecanii_OAA72981.1_nrps:0.0709586843,(Beauveria_brongniartii_OAA35483.1_nrps:0.0164244518,Beauveria_bassiana_PQK13146.1_nrps:0.0105782942)100:0.0431884692)99:0.0224243129)97:0.0187368340,Cordyceps_javanica_TQW02302.1_nrps:0.0369311050)100:0.3909927318,Cladophialophora_psammophila_XP_007744155.1_nrps:0.1678408638)37:0.0248462480)79:0.0000020163,Penicillium_brasilianum_CEJ59956.1_nrps:4.1224486806)34:0.0331125704,((((((KAI1827495.1_split:0.1444565025,Xylaria_nigripes_KAI2634467.1_nrps:0.1478931000)85:0.0220551874,Xylaria_hypoxylon_TGJ79002.1_nrps:0.0816210972)84:0.0146206597,(fungal_sp_No14919_GAW22020.1_nrps:0.0011401726,Xylaria_grammica_KAI0422312.1_nrps:0.0011507093)100:0.0796012637)84:0.0177401484,Xylaria_palmicola_KAI0399761.1_nrps:0.1059202434)100:0.0320534875,((((Xylariaceae_sp_FL0594_KAI0398592.1_nrps:0.1870310065,((Nemania_serpens_KAI1185029.1_nrps:0.0568209604,((Xylaria_sp_FL1777_KAI1418874.1_nrps:0.0386919287,Xylaria_arbuscula_KAI1363917.1_nrps:0.0515762208)100:0.0254300159,Xylaria_bambusicola_XP_047832783.1_nrps:0.0342081465)100:0.0307487946)89:0.0172214205,Nemania_sp_FL0916_KAI1172681.1_nrps:0.0993130128)89:0.0164126780)100:0.0359677969,Nemania_sp_NC0429_KAI1111738.1_nrps:0.1583399237)100:0.1233594277,Astrocystis_sublimbata_KAI0188862.1_nrps:0.4382793804)100:0.1294141886,(Xylariaceae_sp_FL1272_KAI0164569.1_nrps:0.0959409300,Xylariaceae_sp_FL1019_KAI1266947.1_nrps:0.0792733533)100:0.1766496502)100:0.1176028266)100:0.1733252077,((((((CAG9975145.1_split:0.0213570972,CAH0023179.1_split:0.0127108208)99:0.0158133856,CAH0051384.1_split:0.0224383135)98:0.0137721159,VUC29925.1_split:0.0226633741)100:0.1374271452,(Verticillium_dahliae_PNH27774.1_nrps:0.0112228069,Verticillium_nonalfalfae_XP_028495418.1_nrps:0.0221021319)97:0.1949035818)87:0.0283099381,((Grosmannia_clavigera_EFX05940.1_nrps:0.3603978982,(Emericellopsis_atlantica_KAG9253419.1_nrps:0.0302506499,Emericellopsis_cladophorae_KAI6779256.1_nrps:0.0445361693)100:0.1685329279)96:0.0490225983,((((Penicillium_oxalicum_EPS31139.1_nrps:0.2027623971,((Penicillium_expansum_KGO45434.1_nrps:0.0791018327,Penicillium_digitatum_QQK43488.1_nrps:0.0661032423)100:0.0164242632,((Penicillium_freii_KUM56496.1_nrps:0.0150746714,Penicillium_polonicum_OQD71929.1_nrps:0.0259129986)100:0.0176284459,((Penicillium_sp_str_12_KAF4763112.1_nrps:0.0000010001,Penicillium_solitum_XP_040808341.1_nrps:0.0000010001)100:0.0332123978,Penicillium_crustosum_KAF7517455.1_nrps:0.0367215719)100:0.0073072204)100:0.0214224636)100:0.0414388425)83:0.0264575964,Talaromyces_proteolyticus_XP_046075778.1_nrps:0.1253942170)96:0.0264485903,Talaromyces_stipitatus_XP_002483260.1_nrps:0.1535886047)19:0.0153326899,(((Talaromyces_islandicus_CRG90102.1_nrps:0.0600313031,((Talaromyces_cellulolyticus_GAM39784.1_nrps:0.0011625616,(Penicillium_sp_occitanis_PCH06140.1_nrps:0.0035036614,Talaromyces_pinophilus_KAF3404987.1_nrps:0.0022806448)56:0.0000010001)100:0.0169754797,Talaromyces_verruculosus_KUL91656.1_nrps:0.0264160408)100:0.0403974652)98:0.0133507002,Talaromyces_marneffei_KAE8554211.1_nrps:0.0564607259)97:0.0170651121,Talaromyces_amestolkiae_XP_040736961.1_nrps:0.0687689472)100:0.1384711424)100:0.0987008608)91:0.0257485776)82:0.0186844364,(((((((Aspergillus_fischeri_EAW21206.1_nrps:0.0234594846,Aspergillus_fumigatus_XP_754255.1_nrps:0.0851487475)94:0.0345703948,(Aspergillus_turcosus_RHZ63003.1_nrps:0.0421442154,Aspergillus_hiratsukae_KAF7133698.1_nrps:0.0428684811)92:0.0095201166)51:0.0000026027,(Aspergillus_lentulus_GFF71240.1_nrps:0.0394303942,Aspergillus_fumigatiaffinis_KAF4248699.1_nrps:0.0312447509)96:0.0228065740)97:0.0276919521,((Aspergillus_carbonarius_OOF98727.1_nrps:0.1016459139,Aspergillus_sclerotioniger_XP_025466311.1_nrps:0.0839312224)100:0.0436811577,Aspergillus_sclerotiicarbonarius_PYI03572.1_nrps:0.0906624617)100:0.0816507204)92:0.0195170589,Aspergillus_thermomutatus_RHZ54872.1_nrps:0.0609281544)97:0.0260099194,(Aspergillus_rambellii_KKK24685.1_nrps:0.0000022613,Aspergillus_ochraceoroseus_PTU19038.1_nrps:0.0011581063)100:0.1050992677)95:0.0260249510,((((((((Trichophyton_equinum_EGE05591.1_nrps:0.0249578320,Trichophyton_interdigitale_KAG8206050.1_nrps:0.0023211528)100:0.0129713038,(((Trichophyton_soudanense_EZF79037.1_nrps:0.0000010001,Trichophyton_rubrum_KMQ41408.1_nrps:0.0000010001)63:0.0000010001,Trichophyton_violaceum_OAL68961.1_nrps:0.0022883820)100:0.0163571626,(Trichophyton_benhamiae_DAA76167.1_nrps:0.0043553676,Trichophyton_verrucosum_XP_003021174.1_nrps:0.0088272928)98:0.0055301963)99:0.0068605237)100:0.0175144971,Nannizzia_gypsea_XP_003169292.1_nrps:0.0395776991)100:0.0544102153,Microsporum_canis_XP_002842847.1_nrps:0.0464387170)100:0.0637625304,Arthroderma_uncinatum_XP_033408357.1_nrps:0.0920060809)100:0.1073442478,((((((((Metarhizium_anisopliae_KJK83196.1_nrps:0.0070435385,Metarhizium_brunneum_QLI64307.1_nrps:0.0176320397)90:0.0035461284,Metarhizium_humberi_KAH0600808.1_nrps:0.0069960985)90:0.0007237752,Metarhizium_robertsii_EXV04551.1_nrps:0.0097242186)100:0.0110843230,Metarhizium_guizhouense_KID90510.1_nrps:0.0092806556)100:0.0011262298,Metarhizium_majus_XP_014578744.1_nrps:0.0163086570)100:0.0354733068,Metarhizium_acridum_XP_007808063.1_nrps:0.0486451065)100:0.0911997707,Pochonia_chlamydosporia_XP_022284604.1_nrps:0.1044598641)100:0.0276499947,((Trichoderma_atroviride_EHK42400.1_nrps:0.0590886157,Trichoderma_gamsii_XP_018666334.1_nrps:0.0116753224)100:0.0446216900,(Trichoderma_asperelloides_KAH8127508.1_nrps:0.0153586613,Trichoderma_asperellum_XP_024755820.1_nrps:0.0189410447)100:0.0426418996)100:0.2989832226)99:0.0225097029)46:0.0107199137,((Trichoderma_virens_EHK24062.1_nrps:0.1463337311,(Trichoderma_guizhouense_OPB41765.1_nrps:0.0502433442,((Trichoderma_lentiforme_KAF3071615.1_nrps:0.0119360550,(Trichoderma_simmonsii_QYS95457.1_nrps:0.0088915034,Trichoderma_semiorbis_KAH0528981.1_nrps:0.0227935761)75:0.0024875150)97:0.0096386251,Trichoderma_harzianum_XP_024769518.1_nrps:0.0450275631)96:0.0074890280)97:0.0648660850)100:0.0394499590,Trichoderma_arundinaceum_RFU77965.1_nrps:0.0733214411)100:0.1054464621)48:0.0073567466,(Neonectria_ditissima_KPM40578.1_nrps:0.1466603874,Cylindrodendrum_hubeiense_KAF7556944.1_nrps:0.1079949144)28:0.0144019636)43:0.0064735372)69:0.0091919679)93:0.0193752955)95:0.0844925110)40:0.0213383885,((Cenococcum_geophilum_OCK97870.1_nrps:0.0305951402,Capronia_epimyces_XP_007733780.1_nrps:0.1391020390)100:0.0140824696,(((Corynespora_cassiicola_PSN69555.1_nrps:0.1793285699,(((Clonostachys_byssicola_CAG9985190.1_nrps:0.0090695882,Clonostachys_rosea_VUC22207.1_nrps:0.0325081496)83:0.0007884868,Clonostachys_rhizophaga_CAH0016865.1_nrps:0.0099032659)83:0.0040641870,Clonostachys_solani_CAH0048199.1_nrps:0.0130059202)100:0.2283176196)85:0.0254502640,Amniculicola_lignicola_KAF2001389.1_nrps:0.1793283364)69:0.0192490483,(Chaetothyriales_sp_CBS_134920_RMD43204.1_nrps:0.0339551042,Chaetothyriales_sp_CBS_135597_RMZ77957.1_nrps:0.0371377596)100:0.1008304590)68:0.0162179335)63:0.0075135539)47:0.0155641162,Pyrenochaeta_sp_DS3sAY3a_OAL45143.1_nrps:0.2263720458)58:0.1097076607,Didymosphaeria_enalia_KAF2270327.1_nrps:0.1571296536)59:0.0440406988,((((KAG6999329.1_split:0.0946415983,(((KAI4087436.1_split:0.0066741368,KAI4113947.1_split:0.0152776244)100:0.1028098989,(KAI4148356.1_split:0.0161976706,KAI4289416.1_split:0.0152867044)100:0.1259676374)100:0.0273869563,KAI4087815.1_split:0.2288821511)90:0.0062767977)89:0.0120934433,(((KAI4132167.1_split:0.0827098248,KAI4198520.1_split:0.2774870761)90:0.0278336997,KAI4176560.1_split:0.1669953160)82:0.0050043567,KAI4244082.1_split:0.2328270080)63:0.0116199583)64:0.0080178349,(KAI4183817.1_split:0.1215366676,KAI4175354.1_split:0.1052937899)100:0.0245635755)88:0.0197284425,XP_008080493.1_split:0.3497230891)81:0.0157655769)35:0.0076685699)35:0.0148510131)98:0.1303135263,((((((((KAF4476776.1_split:0.0327831752,XP_037171875.1_split:0.0271445198)92:0.0079550187,(KAF4852212.1_split:0.0330751881,(KAF4900571.1_split:0.0285872704,KAH9232576.1_split:0.0176870405)96:0.0045664307)88:0.0040580117)80:0.0018872671,(KAF0327435.1_split:0.0288725980,KAF4818153.1_split:0.0269737001)100:0.0057841245)100:0.0178772816,KAH0423461.1_split:0.0393845196)100:0.1698263671,((((((((((((((EMT68996.1_split:0.0131051307,TVY60237.1_split:0.0092516810)100:0.0084323526,KAH7147697.1_split:0.0072316972)100:0.0059154549,(((((((QGI70967.1_split:0.0131812280,KAF5716871.1_split:0.0026315223)98:0.0017205630,(RKL38797.1_split:0.0090839878,KAI1066238.1_split:0.0045043197)100:0.0035415992)98:0.0054465444,(KAF5644396.1_split:0.0130199014,XP_041688445.1_split:0.0156178013)99:0.0078963747)67:0.0066070964,KAI1016476.1_split:0.0170919225)99:0.0102260044,((((KAF5249356.1_split:0.0066478590,KAF5980296.1_split:0.5056133685)100:0.0034308710,XP_036542836.1_split:0.0133525245)100:0.0041084341,KAF5549359.1_split:0.0276110865)100:0.0161090155,KAF5635992.1_split:0.0373540277)99:0.0050444890)64:0.0043084864,((((PNP83827.1_split:0.0099430556,XP_037206990.1_split:0.0315488867)96:0.0014271545,(KAF5597649.1_split:0.0177621285,KAF5685298.1_split:0.0208475497)97:0.0056221773)93:0.0028043358,KAF5579090.1_split:0.0272560673)100:0.0085244994,KAG5781089.1_split:0.0253089147)100:0.0082555654)97:0.0078823484,KAF4961240.1_split:0.0426562564)100:0.0075282393)100:0.0285978277,((KAF0638020.1_split:0.0248170662,(PTD02110.1_split:0.0023876023,CEF76455.1_split:0.0155671203)100:0.0337069798)100:0.0334532442,((OBS23240.1_split:0.0304537589,KAH6991832.1_split:0.0260474752)100:0.0242327804,(RGP67291.1_split:0.0195977854,Fusarium_langsethiae_GKU06934.1_nrps:0.0185514438)100:0.0343421340)96:0.0162040738)100:0.0522513905)100:0.0359577123,KAE9374075.1_split:0.0104971930)100:0.0816385134,KAF4467008.1_split:0.0395874282)100:0.0166257682,((RMJ02432.1_split:0.0011429094,RTE69451.1_split:0.0011418896)100:0.0048960233,RSL38657.1_split:0.0100289866)100:0.0279692549)100:0.0063807364,KAF4945802.1_split:0.0396795280)100:0.0088635228,QPG98311.1_split:0.0570787333)100:0.0382918847,KAI1268145.1_split:0.0523018248)98:0.0204509536,XP_046010844.1_split:0.0281775399)100:0.4465734179,KAH8880463.1_split:0.0691419647)100:0.0591317681,OAA59696.1_split:0.1632004240)100:0.0752471234,((((KAH7129551.1_split:0.0382269949,KAH7123087.1_split:0.0247259157)100:0.1119668606,KAF7551265.1_split:0.0749904937)55:0.0157813025,KAH6999778.1_split:0.0781029768)55:0.0153635058,((((MCJ1315357.1_split:0.0704999781,MCJ1294905.1_split:0.1030342813)100:0.0093960272,MCJ1283549.1_split:0.0727143150)100:0.0067429147,(MCJ1419551.1_split:0.0515338621,MCJ1433652.1_split:0.0320358116)100:0.0383132193)100:0.0165178450,MCJ1385508.1_split:0.0391857171)100:0.0337046311)55:0.0175879026)94:0.0167359247)100:0.0357368625,(((KXH33808.1_split:0.0323106746,((KAI3559025.1_split:0.0072215602,KAI3528182.1_split:0.0138356127)84:0.0017079907,XP_049153019.1_split:0.0110361881)100:0.0245212689)100:0.0468756009,(((KAF5250787.1_split:0.0250524515,((KAF5598633.1_split:0.0283407721,KAF5687172.1_split:0.0235325387)100:0.0054188981,((KAF5539463.1_split:0.0154609040,KAF5691722.1_split:0.0385312062)100:0.0018300804,KAF5977409.1_split:0.0764586122)87:0.0000027734)91:0.0048304747)100:0.0351759043,(KAF5655011.1_split:0.0273426357,KAI1018633.1_split:0.0177747538)100:0.0165482205)100:0.0128569417,KAG5773904.1_split:0.0404834051)100:0.1292412963)81:0.0142403667,(KAF4996084.1_split:0.0305410788,KAF4463402.1_split:0.0659182501)100:0.0401376233)100:0.3053806308)98:0.0368277224,KAH6873804.1_split:0.1225987834)96:0.0118383553,KAF5013927.1_split:0.1780588707)100:0.0641005070)98:0.0887682406,((KZZ97445.1_split:0.6611680906,((EHK49128.1_split:0.0288616396,XP_018663353.1_split:0.0210118748)100:0.0533631813,(KAH8130639.1_split:0.0080546165,XP_024763206.1_split:0.0060043348)100:0.0433560991)100:0.3055408170)92:0.0657403606,(((KAH7140156.1_split:0.0100373508,KAH7166367.1_split:0.0430512085)100:0.0831081594,KAF7552329.1_split:0.0751506133)88:0.0226629114,(KAH6982671.1_split:0.0136622113,KAH6957909.1_split:0.0194330352)100:0.0922924679)100:0.1241366646)95:0.0910530620)100:1.0013839970,(((((((TPX20322.1_split:0.0104180613,XP_003072098.1_split:0.0095298311)100:0.1782823764,(OQD71289.1_split:0.1425723718,XP_040649207.1_split:0.0897946419)100:0.0902420856)100:0.0350778464,(KAF1919509.1_split:0.2913092288,KAI0429011.1_split:0.1266429070)100:0.2959015852)98:0.0158691331,XP_003171298.1_split:0.2839796150)100:0.0842781794,XP_033402118.1_split:0.2639966351)100:0.1777632158,(MCJ1387732.1_split:0.2151239233,(MCJ1314533.1_split:0.3266468960,(KAI4167695.1_split:0.1561142925,XP_044664487.1_split:0.2981537819)100:0.1255171393)100:0.2315877730)98:0.0521291314)100:0.2172383177,(((((RYP10552.1_split:0.0531363683,(RYP71970.1_split:0.0309110493,RYP43738.1_split:0.0315798932)100:0.0060306988)100:0.0071462973,RYP70479.1_split:0.0482332738)97:0.0037438383,((RYP33552.1_split:0.0000010001,RYO82911.1_split:0.0000010001)100:0.0266158706,RYP15307.1_split:0.0220077873)100:0.0157263182)98:0.0117304950,RYP62963.1_split:0.0417186879)100:0.0730500022,KAI1249353.1_split:0.1007086280)100:0.2716278279)99:0.1574190096);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -141810.387774
+Robinson-Foulds distance between ML tree and consensus tree: 14
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------XP_748589.2_NRPS-like-enzyme
+|
+|                                             +--ETI29378.1_split
+|                                          +--| (100)
+|                                          |  |  +--KIW62367.1_split
+|                                          |  +--| (96)
+|                                          |     +--XP_013253686.1_split
+|                                       +--| (98)
+|                                       |  |                          +--EMT71252.1_split
+|                                       |  |                       +--| (100)
+|                                       |  |                       |  +--TVY68268.1_split
+|                                       |  |                    +--| (100)
+|                                       |  |                    |  +--KAH7154173.1_split
+|                                       |  |                 +--| (99)
+|                                       |  |                 |  |        +--KAF4500682.1_split
+|                                       |  |                 |  |     +--| (100)
+|                                       |  |                 |  |     |  |     +--KAF5254629.1_split
+|                                       |  |                 |  |     |  |  +--| (87)
+|                                       |  |                 |  |     |  |  |  |  +--KAF5557414.1_split
+|                                       |  |                 |  |     |  |  |  +--| (81)
+|                                       |  |                 |  |     |  |  |     +--XP_036540337.1_split
+|                                       |  |                 |  |     |  +--| (100)
+|                                       |  |                 |  |     |     |  +--KAF5979539.1_split
+|                                       |  |                 |  |     |     +--| (100)
+|                                       |  |                 |  |     |        +--KAF5686004.1_split
+|                                       |  |                 |  |  +--| (44)
+|                                       |  |                 |  |  |  |                          +--RBQ68774.1_split
+|                                       |  |                 |  |  |  |                       +--| (100)
+|                                       |  |                 |  |  |  |                       |  +--XP_044675052.1_split
+|                                       |  |                 |  |  |  |                    +--| (94)
+|                                       |  |                 |  |  |  |                    |  +--KAF5981079.1_split
+|                                       |  |                 |  |  |  |                 +--| (94)
+|                                       |  |                 |  |  |  |                 |  +--PNP81105.1_split
+|                                       |  |                 |  |  |  |              +--| (99)
+|                                       |  |                 |  |  |  |              |  |  +--KAF5589598.1_split
+|                                       |  |                 |  |  |  |              |  +--| (99)
+|                                       |  |                 |  |  |  |              |     |  +--KAF5565221.1_split
+|                                       |  |                 |  |  |  |              |     +--| (91)
+|                                       |  |                 |  |  |  |              |        +--XP_037203802.1_split
+|                                       |  |                 |  |  |  |           +--| (99)
+|                                       |  |                 |  |  |  |           |  +--KAF5597173.1_split
+|                                       |  |                 |  |  |  |        +--| (99)
+|                                       |  |                 |  |  |  |        |  +--KAF5695110.1_split
+|                                       |  |                 |  |  |  |     +--| (100)
+|                                       |  |                 |  |  |  |     |  +--KAF5715932.1_split
+|                                       |  |                 |  |  |  |  +--| (79)
+|                                       |  |                 |  |  |  |  |  |  +--KAF5565682.1_split
+|                                       |  |                 |  |  |  |  |  +--| (100)
+|                                       |  |                 |  |  |  |  |     +--KAG5780768.1_split
+|                                       |  |                 |  |  |  +--| (62)
+|                                       |  |                 |  |  |     +--KAI1021066.1_split
+|                                       |  |                 |  +--| (100)
+|                                       |  |                 |     |           +--QGI70075.1_split
+|                                       |  |                 |     |        +--| (100)
+|                                       |  |                 |     |        |  |  +--RKL44236.1_split
+|                                       |  |                 |     |        |  +--| (100)
+|                                       |  |                 |     |        |     +--KAI1064558.1_split
+|                                       |  |                 |     |     +--| (99)
+|                                       |  |                 |     |     |  +--KAF5707538.1_split
+|                                       |  |                 |     |  +--| (99)
+|                                       |  |                 |     |  |  |  +--KAF5651976.1_split
+|                                       |  |                 |     |  |  +--| (99)
+|                                       |  |                 |     |  |     +--XP_041683486.1_split
+|                                       |  |                 |     +--| (40)
+|                                       |  |                 |        +--KAF5624378.1_split
+|                                       |  |              +--| (100)
+|                                       |  |              |  +--KAF4961575.1_split
+|                                       |  |           +--| (100)
+|                                       |  |           |  +--XP_046045061.1_split
+|                                       |  |        +--| (100)
+|                                       |  |        |  |  +--KAF4345085.1_split
+|                                       |  |        |  +--| (100)
+|                                       |  |        |     +--KAF9766433.1_split
+|                                       |  |     +--| (100)
+|                                       |  |     |  +--KAF4454195.1_split
+|                                       |  |  +--| (100)
+|                                       |  |  |  |        +--RFN52730.1_split
+|                                       |  |  |  |     +--| (82)
+|                                       |  |  |  |     |  |  +--KAI1060859.1_split
+|                                       |  |  |  |     |  +--| (84)
+|                                       |  |  |  |     |     +--XP_031016708.1_split
+|                                       |  |  |  |  +--| (100)
+|                                       |  |  |  |  |  +--CAG7559788.1_split
+|                                       |  |  |  +--| (100)
+|                                       |  |  |     |        +--KAF0635058.1_split
+|                                       |  |  |     |     +--| (100)
+|                                       |  |  |     |     |  |  +--PTD07815.1_split
+|                                       |  |  |     |     |  +--| (100)
+|                                       |  |  |     |     |     |  +--KAF5238437.1_split
+|                                       |  |  |     |     |     +--| (100)
+|                                       |  |  |     |     |        +--CEF78594.1_split
+|                                       |  |  |     |  +--| (100)
+|                                       |  |  |     |  |  |     +--OBS25042.1_split
+|                                       |  |  |     |  |  |  +--| (62)
+|                                       |  |  |     |  |  |  |  +--KAH6993714.1_split
+|                                       |  |  |     |  |  +--| (85)
+|                                       |  |  |     |  |     +--RGP74565.1_split
+|                                       |  |  |     +--| (100)
+|                                       |  |  |        +--RGP80029.1_split
+|                                       |  +--| (100)
+|                                       |     +--KAH6981580.1_split
+|                                    +--| (99)
+|                                    |  |  +--KAF1982044.1_split
+|                                    |  +--| (99)
+|                                    |     |  +--KAH8767597.1_split
+|                                    |     +--| (100)
+|                                    |        +--KAH8748815.1_split
+|                                 +--| (99)
+|                                 |  +--KAE9367493.1_split
+|                              +--| (99)
+|                              |  |              +--KIW83143.1_split
+|                              |  |           +--| (100)
+|                              |  |           |  +--XP_022517429.1_split
+|                              |  |        +--| (100)
+|                              |  |        |  +--XP_022496747.1_split
+|                              |  |     +--| (100)
+|                              |  |     |  +--XP_016263412.1_split
+|                              |  |  +--| (100)
+|                              |  |  |  |     +--TID19575.1_split
+|                              |  |  |  |  +--| (100)
+|                              |  |  |  |  |  +--KAE9991798.1_split
+|                              |  |  |  +--| (98)
+|                              |  |  |     +--KAF2420725.1_split
+|                              |  +--| (100)
+|                              |     |              +--KAF2439235.1_split
+|                              |     |           +--| (100)
+|                              |     |           |  +--XP_018033694.1_split
+|                              |     |        +--| (69)
+|                              |     |        |  +--XP_008022607.1_split
+|                              |     |     +--| (69)
+|                              |     |     |  +--XP_033541383.1_split
+|                              |     |  +--| (100)
+|                              |     |  |  +--KAF2648717.1_split
+|                              |     +--| (100)
+|                              |        |     +--KAG9241248.1_split
+|                              |        |  +--| (100)
+|                              |        |  |  +--KAH7317459.1_split
+|                              |        +--| (100)
+|                              |           +--XP_008078390.1_split
+|                           +--| (99)
+|                           |  +--KIM94081.1_split
+|                        +--| (52)
+|                        |  |  +--QIX01997.1_split
+|                        |  +--| (70)
+|                        |     |        +--KXT02248.1_split
+|                        |     |     +--| (82)
+|                        |     |     |  +--XP_033672321.1_split
+|                        |     |  +--| (77)
+|                        |     |  |  +---SMR58341.1_split
+|                        |     +--| (71)
+|                        |        |      +--KAH9843365.1_split
+|                        |        |  +---| (100)
+|                        |        |  |   +--KAF2764178.1_split
+|                        |        +--| (100)
+|                        |           +--KAF2154527.1_split
+|                     +--| (61)
+|                     |  |  +--KAF1945053.1_split
+|                     |  +--| (100)
+|                     |     |  +--KAF2846132.1_split
+|                     |     +--| (100)
+|                     |        |  +--KAH9869829.1_split
+|                     |        +--| (100)
+|                     |           +--KAH9861366.1_split
+|                  +--| (36)
+|                  |  |                                         +----PSN59017.1_split
+|                  |  |                                      +--| (88)
+|                  |  |                                      |  |        +--Bipolaris_sorokiniana_XP_007696074.1_nrps
+|                  |  |                                      |  |     +--| (60)
+|                  |  |                                      |  |     |  +--Bipolaris_maydis_XP_014072682.1_nrps
+|                  |  |                                      |  |  +--| (60)
+|                  |  |                                      |  |  |  |  +--Bipolaris_victoriae_XP_014558639.1_nrps
+|                  |  |                                      |  |  |  +--| (100)
+|                  |  |                                      |  |  |     +--Bipolaris_zeicola_XP_007717065.1_nrps
+|                  |  |                                      |  +--| (90)
+|                  |  |                                      |     +--Bipolaris_oryzae_XP_007692129.1_nrps
+|                  |  |                                   +--| (100)
+|                  |  |                                   |  +--Curvularia_clavata_USP76830.1_nrps
+|                  |  |                                +--| (100)
+|                  |  |                                |  |        +--KAG9185430.1_split
+|                  |  |                                |  |     +--| (100)
+|                  |  |                                |  |     |  +--Clathrospora_elynae_KAF1934949.1_nrps
+|                  |  |                                |  |  +--| (100)
+|                  |  |                                |  |  |  +--Bipolaris_zeicola_XP_007718658.1_nrps
+|                  |  |                                |  +--| (100)
+|                  |  |                                |     +--Exserohilum_turcicum_XP_008020935.1_nrps
+|                  |  |                             +--| (100)
+|                  |  |                             |  |           +--Alternaria_alternata_OWY45736.1_nrps
+|                  |  |                             |  |        +--| (100)
+|                  |  |                             |  |        |  +--Alternaria_arborescens_XP_028501020.1_nrps
+|                  |  |                             |  |     +--| (100)
+|                  |  |                             |  |     |  +--Alternaria_postmessia_KAI5365607.1_nrps
+|                  |  |                             |  |  +--| (100)
+|                  |  |                             |  |  |  |     +--Alternaria_sp_MG1_RII22453.1_nrps
+|                  |  |                             |  |  |  |  +--| (100)
+|                  |  |                             |  |  |  |  |  +--Alternaria_burnsii_XP_038781501.1_nrps
+|                  |  |                             |  |  |  +--| (99)
+|                  |  |                             |  |  |     |  +--Alternaria_tenuissima_RYN54236.1_nrps
+|                  |  |                             |  |  |     +--| (100)
+|                  |  |                             |  |  |        +--Alternaria_gaisen_KAB2098972.1_nrps
+|                  |  |                             |  +--| (100)
+|                  |  |                             |     |                       +--Alternaria_sp_Ai002NY15_KAI4703537.1_nrps
+|                  |  |                             |     |                    +--| (100)
+|                  |  |                             |     |                    |  |  +--Alternaria_arbusti_KAI4940317.1_nrps
+|                  |  |                             |     |                    |  +--| (78)
+|                  |  |                             |     |                    |     +--Alternaria_infectoria_KAI4912202.1_nrps
+|                  |  |                             |     |                 +--| (99)
+|                  |  |                             |     |                 |  +--Alternaria_hordeiaustralica_XP_049239373.1_nrps
+|                  |  |                             |     |              +--| (100)
+|                  |  |                             |     |              |  |  +--Alternaria_sp_BMP_2799_KAI4676254.1_nrps
+|                  |  |                             |     |              |  +--| (80)
+|                  |  |                             |     |              |     +--Alternaria_novaezelandiae_XP_049249900.1_nrps
+|                  |  |                             |     |           +--| (56)
+|                  |  |                             |     |           |  +--Alternaria_ethzedia_XP_049228601.1_nrps
+|                  |  |                             |     |        +--| (98)
+|                  |  |                             |     |        |  |        +--Alternaria_sp_BMP_0032_KAI4606514.1_nrps
+|                  |  |                             |     |        |  |     +--| (56)
+|                  |  |                             |     |        |  |     |  +--Alternaria_triticimaculans_XP_049219272.1_nrps
+|                  |  |                             |     |        |  |  +--| (100)
+|                  |  |                             |     |        |  |  |  +--Alternaria_incomplexa_KAI4906425.1_nrps
+|                  |  |                             |     |        |  +--| (64)
+|                  |  |                             |     |        |     +--Alternaria_conjuncta_KAI4912347.1_nrps
+|                  |  |                             |     |     +--| (100)
+|                  |  |                             |     |     |  +--Alternaria_ventricosa_XP_049202952.1_nrps
+|                  |  |                             |     |  +--| (100)
+|                  |  |                             |     |  |  +--Alternaria_rosae_XP_046029353.1_nrps
+|                  |  |                             |     +--| (100)
+|                  |  |                             |        |  +--Alternaria_metachromatica_XP_049184125.1_nrps
+|                  |  |                             |        +--| (100)
+|                  |  |                             |           +--Alternaria_viburni_XP_049205494.1_nrps
+|                  |  |                          +--| (100)
+|                  |  |                          |  +--Didymosphaeria_enalia_KAF2258812.1_nrps
+|                  |  |                       +--| (99)
+|                  |  |                       |  |  +--Lentithecium_fluviatile_KAF2690734.1_nrps
+|                  |  |                       |  +--| (100)
+|                  |  |                       |     +--Trematosphaeria_pertusa_XP_033685156.1_nrps
+|                  |  |                    +--| (100)
+|                  |  |                    |  |     +--Ascochyta_lentis_KAF9691933.1_nrps
+|                  |  |                    |  |  +--| (100)
+|                  |  |                    |  |  |  +--Lizonia_empirigonia_KAF1358040.1_nrps
+|                  |  |                    |  +--| (100)
+|                  |  |                    |     +--Boeremia_exigua_KAH6629308.1_nrps
+|                  |  |                 +--| (51)
+|                  |  |                 |  |         +--Cordyceps_militaris_EGX88288.1_nrps
+|                  |  |                 |  |      +--| (100)
+|                  |  |                 |  |      |  +--Cordyceps_fumosorosea_XP_018700494.1_nrps
+|                  |  |                 |  |   +--| (97)
+|                  |  |                 |  |   |  |  +--Akanthomyces_lecanii_OAA72981.1_nrps
+|                  |  |                 |  |   |  +--| (99)
+|                  |  |                 |  |   |     |  +--Beauveria_brongniartii_OAA35483.1_nrps
+|                  |  |                 |  |   |     +--| (100)
+|                  |  |                 |  |   |        +--Beauveria_bassiana_PQK13146.1_nrps
+|                  |  |                 |  +---| (100)
+|                  |  |                 |      +--Cordyceps_javanica_TQW02302.1_nrps
+|                  |  |              +--| (79)
+|                  |  |              |  +--Cladophialophora_psammophila_XP_007744155.1_nrps
+|                  |  |           +--| (34)
+|                  |  |           |  +-------------------------------------------Penicillium_brasilianum_CEJ59956.1_nrps
+|                  |  |        +--| (40)
+|                  |  |        |  |                 +--KAI1827495.1_split
+|                  |  |        |  |              +--| (85)
+|                  |  |        |  |              |  +--Xylaria_nigripes_KAI2634467.1_nrps
+|                  |  |        |  |           +--| (84)
+|                  |  |        |  |           |  +--Xylaria_hypoxylon_TGJ79002.1_nrps
+|                  |  |        |  |        +--| (84)
+|                  |  |        |  |        |  |  +--fungal_sp_No14919_GAW22020.1_nrps
+|                  |  |        |  |        |  +--| (100)
+|                  |  |        |  |        |     +--Xylaria_grammica_KAI0422312.1_nrps
+|                  |  |        |  |     +--| (100)
+|                  |  |        |  |     |  +--Xylaria_palmicola_KAI0399761.1_nrps
+|                  |  |        |  |  +--| (100)
+|                  |  |        |  |  |  |           +--Xylariaceae_sp_FL0594_KAI0398592.1_nrps
+|                  |  |        |  |  |  |        +--| (100)
+|                  |  |        |  |  |  |        |  |     +--Nemania_serpens_KAI1185029.1_nrps
+|                  |  |        |  |  |  |        |  |  +--| (89)
+|                  |  |        |  |  |  |        |  |  |  |     +--Xylaria_sp_FL1777_KAI1418874.1_nrps
+|                  |  |        |  |  |  |        |  |  |  |  +--| (100)
+|                  |  |        |  |  |  |        |  |  |  |  |  +--Xylaria_arbuscula_KAI1363917.1_nrps
+|                  |  |        |  |  |  |        |  |  |  +--| (100)
+|                  |  |        |  |  |  |        |  |  |     +--Xylaria_bambusicola_XP_047832783.1_nrps
+|                  |  |        |  |  |  |        |  +--| (89)
+|                  |  |        |  |  |  |        |     +--Nemania_sp_FL0916_KAI1172681.1_nrps
+|                  |  |        |  |  |  |     +--| (100)
+|                  |  |        |  |  |  |     |  +--Nemania_sp_NC0429_KAI1111738.1_nrps
+|                  |  |        |  |  |  |  +--| (100)
+|                  |  |        |  |  |  |  |  +---Astrocystis_sublimbata_KAI0188862.1_nrps
+|                  |  |        |  |  |  +--| (100)
+|                  |  |        |  |  |     |  +--Xylariaceae_sp_FL1272_KAI0164569.1_nrps
+|                  |  |        |  |  |     +--| (100)
+|                  |  |        |  |  |        +--Xylariaceae_sp_FL1019_KAI1266947.1_nrps
+|                  |  |        |  +--| (95)
+|                  |  |        |     |                 +--CAG9975145.1_split
+|                  |  |        |     |              +--| (99)
+|                  |  |        |     |              |  +--CAH0023179.1_split
+|                  |  |        |     |           +--| (98)
+|                  |  |        |     |           |  +--CAH0051384.1_split
+|                  |  |        |     |        +--| (100)
+|                  |  |        |     |        |  +--VUC29925.1_split
+|                  |  |        |     |     +--| (87)
+|                  |  |        |     |     |  |  +--Verticillium_dahliae_PNH27774.1_nrps
+|                  |  |        |     |     |  +--| (97)
+|                  |  |        |     |     |     +--Verticillium_nonalfalfae_XP_028495418.1_nrps
+|                  |  |        |     |  +--| (82)
+|                  |  |        |     |  |  |     +--Grosmannia_clavigera_EFX05940.1_nrps
+|                  |  |        |     |  |  |  +--| (96)
+|                  |  |        |     |  |  |  |  |  +--Emericellopsis_atlantica_KAG9253419.1_nrps
+|                  |  |        |     |  |  |  |  +--| (100)
+|                  |  |        |     |  |  |  |     +--Emericellopsis_cladophorae_KAI6779256.1_nrps
+|                  |  |        |     |  |  +--| (91)
+|                  |  |        |     |  |     |           +--Penicillium_oxalicum_EPS31139.1_nrps
+|                  |  |        |     |  |     |        +--| (83)
+|                  |  |        |     |  |     |        |  |     +--Penicillium_expansum_KGO45434.1_nrps
+|                  |  |        |     |  |     |        |  |  +--| (100)
+|                  |  |        |     |  |     |        |  |  |  +--Penicillium_digitatum_QQK43488.1_nrps
+|                  |  |        |     |  |     |        |  +--| (100)
+|                  |  |        |     |  |     |        |     |     +--Penicillium_freii_KUM56496.1_nrps
+|                  |  |        |     |  |     |        |     |  +--| (100)
+|                  |  |        |     |  |     |        |     |  |  +--Penicillium_polonicum_OQD71929.1_nrps
+|                  |  |        |     |  |     |        |     +--| (100)
+|                  |  |        |     |  |     |        |        |     +--Penicillium_sp_str_12_KAF4763112.1_nrps
+|                  |  |        |     |  |     |        |        |  +--| (100)
+|                  |  |        |     |  |     |        |        |  |  +--Penicillium_solitum_XP_040808341.1_nrps
+|                  |  |        |     |  |     |        |        +--| (100)
+|                  |  |        |     |  |     |        |           +--Penicillium_crustosum_KAF7517455.1_nrps
+|                  |  |        |     |  |     |     +--| (96)
+|                  |  |        |     |  |     |     |  +--Talaromyces_proteolyticus_XP_046075778.1_nrps
+|                  |  |        |     |  |     |  +--| (80)
+|                  |  |        |     |  |     |  |  |        +--Talaromyces_islandicus_CRG90102.1_nrps
+|                  |  |        |     |  |     |  |  |     +--| (98)
+|                  |  |        |     |  |     |  |  |     |  |     +--Talaromyces_cellulolyticus_GAM39784.1_nrps
+|                  |  |        |     |  |     |  |  |     |  |  +--| (100)
+|                  |  |        |     |  |     |  |  |     |  |  |  |  +--Penicillium_sp_occitanis_PCH06140.1_nrps
+|                  |  |        |     |  |     |  |  |     |  |  |  +--| (56)
+|                  |  |        |     |  |     |  |  |     |  |  |     +--Talaromyces_pinophilus_KAF3404987.1_nrps
+|                  |  |        |     |  |     |  |  |     |  +--| (100)
+|                  |  |        |     |  |     |  |  |     |     +--Talaromyces_verruculosus_KUL91656.1_nrps
+|                  |  |        |     |  |     |  |  |  +--| (97)
+|                  |  |        |     |  |     |  |  |  |  +--Talaromyces_marneffei_KAE8554211.1_nrps
+|                  |  |        |     |  |     |  |  +--| (100)
+|                  |  |        |     |  |     |  |     +--Talaromyces_amestolkiae_XP_040736961.1_nrps
+|                  |  |        |     |  |     +--| (100)
+|                  |  |        |     |  |        +--Talaromyces_stipitatus_XP_002483260.1_nrps
+|                  |  |        |     +--| (93)
+|                  |  |        |        |                    +--Aspergillus_fischeri_EAW21206.1_nrps
+|                  |  |        |        |                 +--| (94)
+|                  |  |        |        |                 |  +--Aspergillus_fumigatus_XP_754255.1_nrps
+|                  |  |        |        |              +--| (51)
+|                  |  |        |        |              |  |  +--Aspergillus_turcosus_RHZ63003.1_nrps
+|                  |  |        |        |              |  +--| (92)
+|                  |  |        |        |              |     +--Aspergillus_hiratsukae_KAF7133698.1_nrps
+|                  |  |        |        |           +--| (97)
+|                  |  |        |        |           |  |  +--Aspergillus_lentulus_GFF71240.1_nrps
+|                  |  |        |        |           |  +--| (96)
+|                  |  |        |        |           |     +--Aspergillus_fumigatiaffinis_KAF4248699.1_nrps
+|                  |  |        |        |        +--| (92)
+|                  |  |        |        |        |  |     +--Aspergillus_carbonarius_OOF98727.1_nrps
+|                  |  |        |        |        |  |  +--| (100)
+|                  |  |        |        |        |  |  |  +--Aspergillus_sclerotioniger_XP_025466311.1_nrps
+|                  |  |        |        |        |  +--| (100)
+|                  |  |        |        |        |     +--Aspergillus_sclerotiicarbonarius_PYI03572.1_nrps
+|                  |  |        |        |     +--| (97)
+|                  |  |        |        |     |  +--Aspergillus_thermomutatus_RHZ54872.1_nrps
+|                  |  |        |        |  +--| (95)
+|                  |  |        |        |  |  |  +--Aspergillus_rambellii_KKK24685.1_nrps
+|                  |  |        |        |  |  +--| (100)
+|                  |  |        |        |  |     +--Aspergillus_ochraceoroseus_PTU19038.1_nrps
+|                  |  |        |        +--| (69)
+|                  |  |        |           |                       +--Trichophyton_equinum_EGE05591.1_nrps
+|                  |  |        |           |                    +--| (100)
+|                  |  |        |           |                    |  +--Trichophyton_interdigitale_KAG8206050.1_nrps
+|                  |  |        |           |                 +--| (100)
+|                  |  |        |           |                 |  |        +--Trichophyton_soudanense_EZF79037.1_nrps
+|                  |  |        |           |                 |  |     +--| (63)
+|                  |  |        |           |                 |  |     |  +--Trichophyton_rubrum_KMQ41408.1_nrps
+|                  |  |        |           |                 |  |  +--| (100)
+|                  |  |        |           |                 |  |  |  +--Trichophyton_violaceum_OAL68961.1_nrps
+|                  |  |        |           |                 |  +--| (99)
+|                  |  |        |           |                 |     |  +--Trichophyton_benhamiae_DAA76167.1_nrps
+|                  |  |        |           |                 |     +--| (98)
+|                  |  |        |           |                 |        +--Trichophyton_verrucosum_XP_003021174.1_nrps
+|                  |  |        |           |              +--| (100)
+|                  |  |        |           |              |  +--Nannizzia_gypsea_XP_003169292.1_nrps
+|                  |  |        |           |           +--| (100)
+|                  |  |        |           |           |  +--Microsporum_canis_XP_002842847.1_nrps
+|                  |  |        |           |        +--| (100)
+|                  |  |        |           |        |  +--Arthroderma_uncinatum_XP_033408357.1_nrps
+|                  |  |        |           |     +--| (49)
+|                  |  |        |           |     |  |     +--Trichoderma_virens_EHK24062.1_nrps
+|                  |  |        |           |     |  |  +--| (100)
+|                  |  |        |           |     |  |  |  |  +--Trichoderma_guizhouense_OPB41765.1_nrps
+|                  |  |        |           |     |  |  |  +--| (97)
+|                  |  |        |           |     |  |  |     |     +--Trichoderma_lentiforme_KAF3071615.1_nrps
+|                  |  |        |           |     |  |  |     |  +--| (97)
+|                  |  |        |           |     |  |  |     |  |  |  +--Trichoderma_simmonsii_QYS95457.1_nrps
+|                  |  |        |           |     |  |  |     |  |  +--| (75)
+|                  |  |        |           |     |  |  |     |  |     +--Trichoderma_semiorbis_KAH0528981.1_nrps
+|                  |  |        |           |     |  |  |     +--| (96)
+|                  |  |        |           |     |  |  |        +--Trichoderma_harzianum_XP_024769518.1_nrps
+|                  |  |        |           |     |  +--| (100)
+|                  |  |        |           |     |     +--Trichoderma_arundinaceum_RFU77965.1_nrps
+|                  |  |        |           |  +--| (48)
+|                  |  |        |           |  |  |                       +--Metarhizium_anisopliae_KJK83196.1_nrps
+|                  |  |        |           |  |  |                    +--| (90)
+|                  |  |        |           |  |  |                    |  +--Metarhizium_brunneum_QLI64307.1_nrps
+|                  |  |        |           |  |  |                 +--| (90)
+|                  |  |        |           |  |  |                 |  +--Metarhizium_humberi_KAH0600808.1_nrps
+|                  |  |        |           |  |  |              +--| (100)
+|                  |  |        |           |  |  |              |  +--Metarhizium_robertsii_EXV04551.1_nrps
+|                  |  |        |           |  |  |           +--| (100)
+|                  |  |        |           |  |  |           |  +--Metarhizium_guizhouense_KID90510.1_nrps
+|                  |  |        |           |  |  |        +--| (100)
+|                  |  |        |           |  |  |        |  +--Metarhizium_majus_XP_014578744.1_nrps
+|                  |  |        |           |  |  |     +--| (100)
+|                  |  |        |           |  |  |     |  +--Metarhizium_acridum_XP_007808063.1_nrps
+|                  |  |        |           |  |  |  +--| (100)
+|                  |  |        |           |  |  |  |  +--Pochonia_chlamydosporia_XP_022284604.1_nrps
+|                  |  |        |           |  |  +--| (99)
+|                  |  |        |           |  |     |     +--Trichoderma_atroviride_EHK42400.1_nrps
+|                  |  |        |           |  |     |  +--| (100)
+|                  |  |        |           |  |     |  |  +--Trichoderma_gamsii_XP_018666334.1_nrps
+|                  |  |        |           |  |     +--| (100)
+|                  |  |        |           |  |        |  +--Trichoderma_asperelloides_KAH8127508.1_nrps
+|                  |  |        |           |  |        +--| (100)
+|                  |  |        |           |  |           +--Trichoderma_asperellum_XP_024755820.1_nrps
+|                  |  |        |           +--| (43)
+|                  |  |        |              |  +--Neonectria_ditissima_KPM40578.1_nrps
+|                  |  |        |              +--| (28)
+|                  |  |        |                 +--Cylindrodendrum_hubeiense_KAF7556944.1_nrps
+|                  |  |     +--| (47)
+|                  |  |     |  |     +--Cenococcum_geophilum_OCK97870.1_nrps
+|                  |  |     |  |  +--| (100)
+|                  |  |     |  |  |  +--Capronia_epimyces_XP_007733780.1_nrps
+|                  |  |     |  +--| (63)
+|                  |  |     |     |        +--Corynespora_cassiicola_PSN69555.1_nrps
+|                  |  |     |     |     +--| (85)
+|                  |  |     |     |     |  |        +--Clonostachys_byssicola_CAG9985190.1_nrps
+|                  |  |     |     |     |  |     +--| (83)
+|                  |  |     |     |     |  |     |  +--Clonostachys_rosea_VUC22207.1_nrps
+|                  |  |     |     |     |  |  +--| (83)
+|                  |  |     |     |     |  |  |  +--Clonostachys_rhizophaga_CAH0016865.1_nrps
+|                  |  |     |     |     |  +--| (100)
+|                  |  |     |     |     |     +--Clonostachys_solani_CAH0048199.1_nrps
+|                  |  |     |     |  +--| (69)
+|                  |  |     |     |  |  +--Amniculicola_lignicola_KAF2001389.1_nrps
+|                  |  |     |     +--| (68)
+|                  |  |     |        |  +--Chaetothyriales_sp_CBS_134920_RMD43204.1_nrps
+|                  |  |     |        +--| (100)
+|                  |  |     |           +--Chaetothyriales_sp_CBS_135597_RMZ77957.1_nrps
+|                  |  |  +--| (58)
+|                  |  |  |  +--Pyrenochaeta_sp_DS3sAY3a_OAL45143.1_nrps
+|                  |  +--| (59)
+|                  |     +--Didymosphaeria_enalia_KAF2270327.1_nrps
+|               +--| (46)
+|               |  +--ORY16213.1_split
+|            +--| (98)
+|            |  |           +--KAG6999329.1_split
+|            |  |        +--| (89)
+|            |  |        |  |        +--KAI4087436.1_split
+|            |  |        |  |     +--| (100)
+|            |  |        |  |     |  +--KAI4113947.1_split
+|            |  |        |  |  +--| (100)
+|            |  |        |  |  |  |  +--KAI4148356.1_split
+|            |  |        |  |  |  +--| (100)
+|            |  |        |  |  |     +--KAI4289416.1_split
+|            |  |        |  +--| (90)
+|            |  |        |     +--KAI4087815.1_split
+|            |  |     +--| (64)
+|            |  |     |  |        +--KAI4132167.1_split
+|            |  |     |  |     +--| (90)
+|            |  |     |  |     |  +--KAI4198520.1_split
+|            |  |     |  |  +--| (82)
+|            |  |     |  |  |  +--KAI4176560.1_split
+|            |  |     |  +--| (63)
+|            |  |     |     +--KAI4244082.1_split
+|            |  |  +--| (88)
+|            |  |  |  |  +--KAI4183817.1_split
+|            |  |  |  +--| (100)
+|            |  |  |     +--KAI4175354.1_split
+|            |  +--| (81)
+|            |     +--XP_008080493.1_split
+|         +--| (98)
+|         |  |                       +--KAF4476776.1_split
+|         |  |                    +--| (92)
+|         |  |                    |  +--XP_037171875.1_split
+|         |  |                 +--| (80)
+|         |  |                 |  |  +--KAF4852212.1_split
+|         |  |                 |  +--| (88)
+|         |  |                 |     |  +--KAF4900571.1_split
+|         |  |                 |     +--| (96)
+|         |  |                 |        +--KAH9232576.1_split
+|         |  |              +--| (100)
+|         |  |              |  |  +--KAF0327435.1_split
+|         |  |              |  +--| (100)
+|         |  |              |     +--KAF4818153.1_split
+|         |  |           +--| (100)
+|         |  |           |  +--KAH0423461.1_split
+|         |  |        +--| (100)
+|         |  |        |  |                                          +--EMT68996.1_split
+|         |  |        |  |                                       +--| (100)
+|         |  |        |  |                                       |  +--TVY60237.1_split
+|         |  |        |  |                                    +--| (100)
+|         |  |        |  |                                    |  +--KAH7147697.1_split
+|         |  |        |  |                                 +--| (100)
+|         |  |        |  |                                 |  |                    +--QGI70967.1_split
+|         |  |        |  |                                 |  |                 +--| (98)
+|         |  |        |  |                                 |  |                 |  +--KAF5716871.1_split
+|         |  |        |  |                                 |  |              +--| (98)
+|         |  |        |  |                                 |  |              |  |  +--RKL38797.1_split
+|         |  |        |  |                                 |  |              |  +--| (100)
+|         |  |        |  |                                 |  |              |     +--KAI1066238.1_split
+|         |  |        |  |                                 |  |           +--| (67)
+|         |  |        |  |                                 |  |           |  |  +--KAF5644396.1_split
+|         |  |        |  |                                 |  |           |  +--| (99)
+|         |  |        |  |                                 |  |           |     +--XP_041688445.1_split
+|         |  |        |  |                                 |  |        +--| (99)
+|         |  |        |  |                                 |  |        |  +--KAI1016476.1_split
+|         |  |        |  |                                 |  |     +--| (64)
+|         |  |        |  |                                 |  |     |  |           +--KAF5249356.1_split
+|         |  |        |  |                                 |  |     |  |        +--| (100)
+|         |  |        |  |                                 |  |     |  |        |  +----KAF5980296.1_split
+|         |  |        |  |                                 |  |     |  |     +--| (100)
+|         |  |        |  |                                 |  |     |  |     |  +--XP_036542836.1_split
+|         |  |        |  |                                 |  |     |  |  +--| (100)
+|         |  |        |  |                                 |  |     |  |  |  +--KAF5549359.1_split
+|         |  |        |  |                                 |  |     |  +--| (99)
+|         |  |        |  |                                 |  |     |     +--KAF5635992.1_split
+|         |  |        |  |                                 |  |  +--| (97)
+|         |  |        |  |                                 |  |  |  |           +--PNP83827.1_split
+|         |  |        |  |                                 |  |  |  |        +--| (96)
+|         |  |        |  |                                 |  |  |  |        |  +--XP_037206990.1_split
+|         |  |        |  |                                 |  |  |  |     +--| (93)
+|         |  |        |  |                                 |  |  |  |     |  |  +--KAF5597649.1_split
+|         |  |        |  |                                 |  |  |  |     |  +--| (97)
+|         |  |        |  |                                 |  |  |  |     |     +--KAF5685298.1_split
+|         |  |        |  |                                 |  |  |  |  +--| (100)
+|         |  |        |  |                                 |  |  |  |  |  +--KAF5579090.1_split
+|         |  |        |  |                                 |  |  |  +--| (100)
+|         |  |        |  |                                 |  |  |     +--KAG5781089.1_split
+|         |  |        |  |                                 |  +--| (100)
+|         |  |        |  |                                 |     +--KAF4961240.1_split
+|         |  |        |  |                              +--| (100)
+|         |  |        |  |                              |  |     +--KAF0638020.1_split
+|         |  |        |  |                              |  |  +--| (100)
+|         |  |        |  |                              |  |  |  |  +--PTD02110.1_split
+|         |  |        |  |                              |  |  |  +--| (100)
+|         |  |        |  |                              |  |  |     +--CEF76455.1_split
+|         |  |        |  |                              |  +--| (100)
+|         |  |        |  |                              |     |     +--OBS23240.1_split
+|         |  |        |  |                              |     |  +--| (100)
+|         |  |        |  |                              |     |  |  +--KAH6991832.1_split
+|         |  |        |  |                              |     +--| (96)
+|         |  |        |  |                              |        |  +--RGP67291.1_split
+|         |  |        |  |                              |        +--| (100)
+|         |  |        |  |                              |           +--Fusarium_langsethiae_GKU06934.1_nrps
+|         |  |        |  |                           +--| (100)
+|         |  |        |  |                           |  +--KAE9374075.1_split
+|         |  |        |  |                        +--| (100)
+|         |  |        |  |                        |  +--KAF4467008.1_split
+|         |  |        |  |                     +--| (100)
+|         |  |        |  |                     |  |     +--RMJ02432.1_split
+|         |  |        |  |                     |  |  +--| (100)
+|         |  |        |  |                     |  |  |  +--RTE69451.1_split
+|         |  |        |  |                     |  +--| (100)
+|         |  |        |  |                     |     +--RSL38657.1_split
+|         |  |        |  |                  +--| (100)
+|         |  |        |  |                  |  +--KAF4945802.1_split
+|         |  |        |  |               +--| (100)
+|         |  |        |  |               |  +--QPG98311.1_split
+|         |  |        |  |            +--| (98)
+|         |  |        |  |            |  +--KAI1268145.1_split
+|         |  |        |  |        +---| (100)
+|         |  |        |  |        |   +--XP_046010844.1_split
+|         |  |        |  |     +--| (100)
+|         |  |        |  |     |  +--KAH8880463.1_split
+|         |  |        |  |  +--| (100)
+|         |  |        |  |  |  +--OAA59696.1_split
+|         |  |        |  +--| (94)
+|         |  |        |     |           +--KAH7129551.1_split
+|         |  |        |     |        +--| (100)
+|         |  |        |     |        |  +--KAH7123087.1_split
+|         |  |        |     |     +--| (55)
+|         |  |        |     |     |  +--KAF7551265.1_split
+|         |  |        |     |  +--| (55)
+|         |  |        |     |  |  +--KAH6999778.1_split
+|         |  |        |     +--| (55)
+|         |  |        |        |           +--MCJ1315357.1_split
+|         |  |        |        |        +--| (100)
+|         |  |        |        |        |  +--MCJ1294905.1_split
+|         |  |        |        |     +--| (100)
+|         |  |        |        |     |  +--MCJ1283549.1_split
+|         |  |        |        |  +--| (100)
+|         |  |        |        |  |  |  +--MCJ1419551.1_split
+|         |  |        |        |  |  +--| (100)
+|         |  |        |        |  |     +--MCJ1433652.1_split
+|         |  |        |        +--| (100)
+|         |  |        |           +--MCJ1385508.1_split
+|         |  |     +--| (98)
+|         |  |     |  |        +--KXH33808.1_split
+|         |  |     |  |     +--| (100)
+|         |  |     |  |     |  |     +--KAI3559025.1_split
+|         |  |     |  |     |  |  +--| (84)
+|         |  |     |  |     |  |  |  +--KAI3528182.1_split
+|         |  |     |  |     |  +--| (100)
+|         |  |     |  |     |     +--XP_049153019.1_split
+|         |  |     |  |  +--| (81)
+|         |  |     |  |  |  |        +--KAF5250787.1_split
+|         |  |     |  |  |  |     +--| (100)
+|         |  |     |  |  |  |     |  |     +--KAF5598633.1_split
+|         |  |     |  |  |  |     |  |  +--| (100)
+|         |  |     |  |  |  |     |  |  |  +--KAF5687172.1_split
+|         |  |     |  |  |  |     |  +--| (91)
+|         |  |     |  |  |  |     |     |     +--KAF5539463.1_split
+|         |  |     |  |  |  |     |     |  +--| (100)
+|         |  |     |  |  |  |     |     |  |  +--KAF5691722.1_split
+|         |  |     |  |  |  |     |     +--| (87)
+|         |  |     |  |  |  |     |        +--KAF5977409.1_split
+|         |  |     |  |  |  |  +--| (100)
+|         |  |     |  |  |  |  |  |  +--KAF5655011.1_split
+|         |  |     |  |  |  |  |  +--| (100)
+|         |  |     |  |  |  |  |     +--KAI1018633.1_split
+|         |  |     |  |  |  +--| (100)
+|         |  |     |  |  |     +--KAG5773904.1_split
+|         |  |     |  +--| (100)
+|         |  |     |     |  +--KAF4996084.1_split
+|         |  |     |     +--| (100)
+|         |  |     |        +--KAF4463402.1_split
+|         |  |  +--| (96)
+|         |  |  |  +--KAH6873804.1_split
+|         |  +--| (100)
+|         |     +--KAF5013927.1_split
++---------| (100)
+|         |     +------KZZ97445.1_split
+|         |  +--| (92)
+|         |  |  |     +--EHK49128.1_split
+|         |  |  |  +--| (100)
+|         |  |  |  |  +--XP_018663353.1_split
+|         |  |  +--| (100)
+|         |  |     |  +--KAH8130639.1_split
+|         |  |     +--| (100)
+|         |  |        +--XP_024763206.1_split
+|         +--| (95)
+|            |        +--KAH7140156.1_split
+|            |     +--| (100)
+|            |     |  +--KAH7166367.1_split
+|            |  +--| (88)
+|            |  |  +--KAF7552329.1_split
+|            +--| (100)
+|               |  +--KAH6982671.1_split
+|               +--| (100)
+|                  +--KAH6957909.1_split
+|
+|                    +--TPX20322.1_split
+|                 +--| (100)
+|                 |  +--XP_003072098.1_split
+|              +--| (100)
+|              |  |  +--OQD71289.1_split
+|              |  +--| (100)
+|              |     +--XP_040649207.1_split
+|           +--| (98)
+|           |  |  +--KAF1919509.1_split
+|           |  +--| (100)
+|           |     +--KAI0429011.1_split
+|        +--| (100)
+|        |  +--XP_003171298.1_split
+|     +--| (100)
+|     |  +--XP_033402118.1_split
+|  +--| (100)
+|  |  |  +--MCJ1387732.1_split
+|  |  +--| (98)
+|  |     |  +--MCJ1314533.1_split
+|  |     +--| (100)
+|  |        |  +--KAI4167695.1_split
+|  |        +--| (100)
+|  |           +--XP_044664487.1_split
++--| (99)
+   |              +--RYP10552.1_split
+   |           +--| (100)
+   |           |  |  +--RYP71970.1_split
+   |           |  +--| (100)
+   |           |     +--RYP43738.1_split
+   |        +--| (97)
+   |        |  +--RYP70479.1_split
+   |     +--| (98)
+   |     |  |     +--RYP33552.1_split
+   |     |  |  +--| (100)
+   |     |  |  |  +--RYO82911.1_split
+   |     |  +--| (100)
+   |     |     +--RYP15307.1_split
+   |  +--| (100)
+   |  |  +--RYP62963.1_split
+   +--| (100)
+      +--KAI1249353.1_split
+
+
+Consensus tree in newick format: 
+
+(XP_748589.2_NRPS-like-enzyme:2.2961113350,(((((((((((((ETI29378.1_split:0.0911875588,(KIW62367.1_split:0.0726395963,XP_013253686.1_split:0.1535786634)96:0.0165399686)100:0.0513685662,(((((((((EMT71252.1_split:0.0106145327,TVY68268.1_split:0.0099481268)100:0.0133599478,KAH7154173.1_split:0.0197358487)100:0.0080728534,(((KAF4500682.1_split:0.0233992534,((KAF5254629.1_split:0.0112573391,(KAF5557414.1_split:0.0115148511,XP_036540337.1_split:0.0149803125)81:0.0028152041)87:0.0019136509,(KAF5979539.1_split:0.0061858218,KAF5686004.1_split:0.0079678674)100:0.0042620910)100:0.0135134719)100:0.0210149416,(((((((((RBQ68774.1_split:0.0080780712,XP_044675052.1_split:0.0068792546)100:0.0102826073,KAF5981079.1_split:0.0137927448)94:0.0042115649,PNP81105.1_split:0.0132428388)94:0.0044924143,(KAF5589598.1_split:0.0302019923,(KAF5565221.1_split:0.0173639035,XP_037203802.1_split:0.0246928259)91:0.0055263839)99:0.0034947607)99:0.0042110839,KAF5597173.1_split:0.0412314144)99:0.0046881632,KAF5695110.1_split:0.0305444238)99:0.0063917060,KAF5715932.1_split:0.0278998306)100:0.0138944379,(KAF5565682.1_split:0.0257810484,KAG5780768.1_split:0.0274824842)100:0.0087869779)79:0.0046272738,KAI1021066.1_split:0.0712213488)62:0.0015032374)44:0.0014151653,((((QGI70075.1_split:0.0191220833,(RKL44236.1_split:0.0034021921,KAI1064558.1_split:0.0022748949)100:0.0061914551)100:0.0099765567,KAF5707538.1_split:0.0177340033)99:0.0116032382,(KAF5651976.1_split:0.0240045955,XP_041683486.1_split:0.0187093361)99:0.0056320483)99:0.0115482339,KAF5624378.1_split:0.0436321782)40:0.0035898706)100:0.0128887256)99:0.0062199138,KAF4961575.1_split:0.0371366741)100:0.0229246831,XP_046045061.1_split:0.0425824381)100:0.0254995192,(KAF4345085.1_split:0.0674456469,KAF9766433.1_split:0.0465010137)100:0.0354631146)100:0.0199758291,KAF4454195.1_split:0.0811638709)100:0.0281023992,(((RFN52730.1_split:0.0295004290,(KAI1060859.1_split:0.0291036499,XP_031016708.1_split:0.0381043722)84:0.0046739484)82:0.0016980105,CAG7559788.1_split:0.0527910242)100:0.0431402082,(((KAF0635058.1_split:0.0111924376,(PTD07815.1_split:0.0077446452,(KAF5238437.1_split:0.0034133002,CEF78594.1_split:0.0023868709)100:0.0099973105)100:0.0032340053)100:0.0546760103,((OBS25042.1_split:0.0320404914,KAH6993714.1_split:0.0514313716)62:0.0045743290,RGP74565.1_split:0.0701232683)85:0.0083716179)100:0.0272555266,RGP80029.1_split:0.1192653752)100:0.0219677142)100:0.0916605454)100:0.0960784201,KAH6981580.1_split:0.1787068336)100:0.0419790514)98:0.0175962684,(KAF1982044.1_split:0.0908082157,(KAH8767597.1_split:0.0049571128,KAH8748815.1_split:0.0019214894)100:0.0591182508)99:0.0142265123)99:0.0405101435,KAE9367493.1_split:0.1372895146)99:0.0210905079,(((((KIW83143.1_split:0.0057911160,XP_022517429.1_split:0.0060124400)100:0.0037629166,XP_022496747.1_split:0.0141230492)100:0.0256658864,XP_016263412.1_split:0.0443298493)100:0.1058164268,((TID19575.1_split:0.0703723100,KAE9991798.1_split:0.0337610016)100:0.1084311602,KAF2420725.1_split:0.0939604668)98:0.0180850134)100:0.0133085207,(((((KAF2439235.1_split:0.0493494294,XP_018033694.1_split:0.0723806494)100:0.0446340975,XP_008022607.1_split:0.0961689060)69:0.0060128615,XP_033541383.1_split:0.0241739117)69:0.0114003529,KAF2648717.1_split:0.0969263110)100:0.1001744393,((KAG9241248.1_split:0.0514810913,KAH7317459.1_split:0.0267870026)100:0.0507108768,XP_008078390.1_split:0.1420159305)100:0.0253803430)100:0.0102863281)100:0.2980048477)99:0.0553940157,KIM94081.1_split:0.1451698921)99:0.1137429971,(QIX01997.1_split:0.2930841866,(((KXT02248.1_split:0.1705677577,XP_033672321.1_split:0.1733237283)82:0.0875669306,SMR58341.1_split:0.4507187753)77:0.0562116053,((KAH9843365.1_split:0.0699001423,KAF2764178.1_split:0.0852903527)100:0.4038020236,KAF2154527.1_split:0.3611660225)100:0.0496418494)71:0.0444946222)70:0.0759839409)52:0.0324349010,(KAF1945053.1_split:0.1635052121,(KAF2846132.1_split:0.1030098178,(KAH9869829.1_split:0.0688207053,KAH9861366.1_split:0.0484920498)100:0.0534464899)100:0.2931133308)100:0.0705419759)61:0.0260206640,((((((((((((((PSN59017.1_split:0.5426955141,(((Bipolaris_sorokiniana_XP_007696074.1_nrps:0.0199916642,Bipolaris_maydis_XP_014072682.1_nrps:0.0336480524)60:0.0048358221,(Bipolaris_victoriae_XP_014558639.1_nrps:0.0127786371,Bipolaris_zeicola_XP_007717065.1_nrps:0.0058141504)100:0.0157742138)60:0.0044757104,Bipolaris_oryzae_XP_007692129.1_nrps:0.0343451888)90:0.0761487613)88:0.0067749615,Curvularia_clavata_USP76830.1_nrps:0.1071851989)100:0.0521501173,(((KAG9185430.1_split:0.1225331087,Clathrospora_elynae_KAF1934949.1_nrps:0.2036539803)100:0.0561889505,Bipolaris_zeicola_XP_007718658.1_nrps:0.2813869636)100:0.0811615866,Exserohilum_turcicum_XP_008020935.1_nrps:0.3146998472)100:0.0839731872)100:0.0714108484,((((Alternaria_alternata_OWY45736.1_nrps:0.0056814598,Alternaria_arborescens_XP_028501020.1_nrps:0.0148787867)100:0.0189531784,Alternaria_postmessia_KAI5365607.1_nrps:0.0232163785)100:0.0070714384,((Alternaria_sp_MG1_RII22453.1_nrps:0.0049356415,Alternaria_burnsii_XP_038781501.1_nrps:0.0133968817)100:0.0299470560,(Alternaria_tenuissima_RYN54236.1_nrps:0.0246350826,Alternaria_gaisen_KAB2098972.1_nrps:0.0193404908)100:0.0191014106)99:0.0080940912)100:0.1280939588,((((((((Alternaria_sp_Ai002NY15_KAI4703537.1_nrps:0.0147933412,(Alternaria_arbusti_KAI4940317.1_nrps:0.0000029810,Alternaria_infectoria_KAI4912202.1_nrps:0.0033761544)78:0.0000029810)100:0.0045170433,Alternaria_hordeiaustralica_XP_049239373.1_nrps:0.0033820399)99:0.0013292437,(Alternaria_sp_BMP_2799_KAI4676254.1_nrps:0.0205520973,Alternaria_novaezelandiae_XP_049249900.1_nrps:0.0207895256)80:0.0022501106)100:0.0110785114,Alternaria_ethzedia_XP_049228601.1_nrps:0.0080760681)56:0.0019242946,(((Alternaria_sp_BMP_0032_KAI4606514.1_nrps:0.0045331831,Alternaria_triticimaculans_XP_049219272.1_nrps:0.0022650757)56:0.0000029810,Alternaria_incomplexa_KAI4906425.1_nrps:0.0034021790)100:0.0087089233,Alternaria_conjuncta_KAI4912347.1_nrps:0.0248810934)64:0.0021569422)98:0.0055779876,Alternaria_ventricosa_XP_049202952.1_nrps:0.0202725588)100:0.0226685208,Alternaria_rosae_XP_046029353.1_nrps:0.0439885202)100:0.0313671766,(Alternaria_metachromatica_XP_049184125.1_nrps:0.0000029810,Alternaria_viburni_XP_049205494.1_nrps:0.0000029810)100:0.0856134622)100:0.0829137026)100:0.0444744387)100:0.0378057915,Didymosphaeria_enalia_KAF2258812.1_nrps:0.0657541431)100:0.1375032465,(Lentithecium_fluviatile_KAF2690734.1_nrps:0.0863719264,Trematosphaeria_pertusa_XP_033685156.1_nrps:0.0603330680)100:0.0302922320)99:0.0129836121,((Ascochyta_lentis_KAF9691933.1_nrps:0.1733442683,Lizonia_empirigonia_KAF1358040.1_nrps:0.0966795302)100:0.0904875165,Boeremia_exigua_KAH6629308.1_nrps:0.2517666589)100:0.0673404117)100:0.0843811802,(((Cordyceps_militaris_EGX88288.1_nrps:0.0849885587,Cordyceps_fumosorosea_XP_018700494.1_nrps:0.1380163366)100:0.0464682656,(Akanthomyces_lecanii_OAA72981.1_nrps:0.0710782319,(Beauveria_brongniartii_OAA35483.1_nrps:0.0164199202,Beauveria_bassiana_PQK13146.1_nrps:0.0106171344)100:0.0432036375)99:0.0223116107)97:0.0182669994,Cordyceps_javanica_TQW02302.1_nrps:0.0375316160)100:0.3993825204)51:0.0135046289,Cladophialophora_psammophila_XP_007744155.1_nrps:0.1874777008)79:0.0340854112,Penicillium_brasilianum_CEJ59956.1_nrps:4.1381833868)34:0.0001114356,((((((KAI1827495.1_split:0.1445893427,Xylaria_nigripes_KAI2634467.1_nrps:0.1480515040)85:0.0220590600,Xylaria_hypoxylon_TGJ79002.1_nrps:0.0816997722)84:0.0146163064,(fungal_sp_No14919_GAW22020.1_nrps:0.0011414966,Xylaria_grammica_KAI0422312.1_nrps:0.0011515936)100:0.0796704869)84:0.0178319107,Xylaria_palmicola_KAI0399761.1_nrps:0.1059690907)100:0.0322859688,((((Xylariaceae_sp_FL0594_KAI0398592.1_nrps:0.1871798977,((Nemania_serpens_KAI1185029.1_nrps:0.0568770580,((Xylaria_sp_FL1777_KAI1418874.1_nrps:0.0387239791,Xylaria_arbuscula_KAI1363917.1_nrps:0.0516193560)100:0.0254548234,Xylaria_bambusicola_XP_047832783.1_nrps:0.0342337616)100:0.0307635975)89:0.0172275569,Nemania_sp_FL0916_KAI1172681.1_nrps:0.0994109005)89:0.0164320162)100:0.0359793000,Nemania_sp_NC0429_KAI1111738.1_nrps:0.1584842515)100:0.1234895924,Astrocystis_sublimbata_KAI0188862.1_nrps:0.4386869674)100:0.1295308600,(Xylariaceae_sp_FL1272_KAI0164569.1_nrps:0.0960816121,Xylariaceae_sp_FL1019_KAI1266947.1_nrps:0.0792830013)100:0.1768238047)100:0.1176313867)100:0.1727902104,((((((CAG9975145.1_split:0.0213763465,CAH0023179.1_split:0.0127229943)99:0.0158303745,CAH0051384.1_split:0.0224575797)98:0.0138211748,VUC29925.1_split:0.0226456890)100:0.1370677712,(Verticillium_dahliae_PNH27774.1_nrps:0.0111847357,Verticillium_nonalfalfae_XP_028495418.1_nrps:0.0221700797)97:0.1956083836)87:0.0288177079,((Grosmannia_clavigera_EFX05940.1_nrps:0.3621217227,(Emericellopsis_atlantica_KAG9253419.1_nrps:0.0299708285,Emericellopsis_cladophorae_KAI6779256.1_nrps:0.0449210763)100:0.1694146824)96:0.0502193778,((((Penicillium_oxalicum_EPS31139.1_nrps:0.2022040927,((Penicillium_expansum_KGO45434.1_nrps:0.0789678113,Penicillium_digitatum_QQK43488.1_nrps:0.0663789593)100:0.0166781275,((Penicillium_freii_KUM56496.1_nrps:0.0150691929,Penicillium_polonicum_OQD71929.1_nrps:0.0259497008)100:0.0176187728,((Penicillium_sp_str_12_KAF4763112.1_nrps:0.0000029810,Penicillium_solitum_XP_040808341.1_nrps:0.0000029810)100:0.0332362685,Penicillium_crustosum_KAF7517455.1_nrps:0.0367587653)100:0.0073238045)100:0.0210867530)100:0.0424012654)83:0.0264570886,Talaromyces_proteolyticus_XP_046075778.1_nrps:0.1244432348)96:0.0264459784,(((Talaromyces_islandicus_CRG90102.1_nrps:0.0598136261,((Talaromyces_cellulolyticus_GAM39784.1_nrps:0.0011635109,(Penicillium_sp_occitanis_PCH06140.1_nrps:0.0035070134,Talaromyces_pinophilus_KAF3404987.1_nrps:0.0022827018)56:0.0000029810)100:0.0169804219,Talaromyces_verruculosus_KUL91656.1_nrps:0.0264495908)100:0.0406970550)98:0.0133093533,Talaromyces_marneffei_KAE8554211.1_nrps:0.0563664760)97:0.0169603974,Talaromyces_amestolkiae_XP_040736961.1_nrps:0.0691675850)100:0.1435674779)80:0.0176495101,Talaromyces_stipitatus_XP_002483260.1_nrps:0.1473862927)100:0.1009185912)91:0.0225962075)82:0.0176325532,(((((((Aspergillus_fischeri_EAW21206.1_nrps:0.0234828108,Aspergillus_fumigatus_XP_754255.1_nrps:0.0852661990)94:0.0346109491,(Aspergillus_turcosus_RHZ63003.1_nrps:0.0421855539,Aspergillus_hiratsukae_KAF7133698.1_nrps:0.0429022607)92:0.0095388994)51:0.0000020719,(Aspergillus_lentulus_GFF71240.1_nrps:0.0394607587,Aspergillus_fumigatiaffinis_KAF4248699.1_nrps:0.0312709561)96:0.0228102293)97:0.0276507952,((Aspergillus_carbonarius_OOF98727.1_nrps:0.1017722552,Aspergillus_sclerotioniger_XP_025466311.1_nrps:0.0839925112)100:0.0437218575,Aspergillus_sclerotiicarbonarius_PYI03572.1_nrps:0.0907704532)100:0.0818547132)92:0.0193734332,Aspergillus_thermomutatus_RHZ54872.1_nrps:0.0610653086)97:0.0260008483,(Aspergillus_rambellii_KKK24685.1_nrps:0.0000029810,Aspergillus_ochraceoroseus_PTU19038.1_nrps:0.0011597651)100:0.1051232463)95:0.0272138956,((((((((Trichophyton_equinum_EGE05591.1_nrps:0.0249806881,Trichophyton_interdigitale_KAG8206050.1_nrps:0.0023239716)100:0.0129746918,(((Trichophyton_soudanense_EZF79037.1_nrps:0.0000029810,Trichophyton_rubrum_KMQ41408.1_nrps:0.0000029810)63:0.0000029810,Trichophyton_violaceum_OAL68961.1_nrps:0.0022908917)100:0.0163702223,(Trichophyton_benhamiae_DAA76167.1_nrps:0.0043584440,Trichophyton_verrucosum_XP_003021174.1_nrps:0.0088353992)98:0.0055355222)99:0.0068741409)100:0.0175238939,Nannizzia_gypsea_XP_003169292.1_nrps:0.0396050833)100:0.0547988765,Microsporum_canis_XP_002842847.1_nrps:0.0463506865)100:0.0635843410,Arthroderma_uncinatum_XP_033408357.1_nrps:0.0925306082)100:0.1082193775,((Trichoderma_virens_EHK24062.1_nrps:0.1467710216,(Trichoderma_guizhouense_OPB41765.1_nrps:0.0503277273,((Trichoderma_lentiforme_KAF3071615.1_nrps:0.0119583062,(Trichoderma_simmonsii_QYS95457.1_nrps:0.0088954516,Trichoderma_semiorbis_KAH0528981.1_nrps:0.0228350150)75:0.0024852702)97:0.0096643139,Trichoderma_harzianum_XP_024769518.1_nrps:0.0450434436)96:0.0074899693)97:0.0639651797)100:0.0391477359,Trichoderma_arundinaceum_RFU77965.1_nrps:0.0746492251)100:0.0990939770)49:0.0097421260,((((((((Metarhizium_anisopliae_KJK83196.1_nrps:0.0070506040,Metarhizium_brunneum_QLI64307.1_nrps:0.0176484605)90:0.0035487155,Metarhizium_humberi_KAH0600808.1_nrps:0.0070026056)90:0.0007204476,Metarhizium_robertsii_EXV04551.1_nrps:0.0097358209)100:0.0110964933,Metarhizium_guizhouense_KID90510.1_nrps:0.0092888701)100:0.0011275042,Metarhizium_majus_XP_014578744.1_nrps:0.0163185853)100:0.0359119806,Metarhizium_acridum_XP_007808063.1_nrps:0.0483866332)100:0.0921295675,Pochonia_chlamydosporia_XP_022284604.1_nrps:0.1038333444)100:0.0258567107,((Trichoderma_atroviride_EHK42400.1_nrps:0.0591348605,Trichoderma_gamsii_XP_018666334.1_nrps:0.0117794049)100:0.0449798529,(Trichoderma_asperelloides_KAH8127508.1_nrps:0.0153606202,Trichoderma_asperellum_XP_024755820.1_nrps:0.0189670272)100:0.0422135391)100:0.3027955525)99:0.0291523377)48:0.0070388796,(Neonectria_ditissima_KPM40578.1_nrps:0.1470497807,Cylindrodendrum_hubeiense_KAF7556944.1_nrps:0.1081611320)28:0.0132721538)43:0.0067093364)69:0.0095442757)93:0.0193308814)95:0.0821577924)40:0.0226539175,((Cenococcum_geophilum_OCK97870.1_nrps:0.0307772158,Capronia_epimyces_XP_007733780.1_nrps:0.1391942394)100:0.0148546040,(((Corynespora_cassiicola_PSN69555.1_nrps:0.1795042345,(((Clonostachys_byssicola_CAG9985190.1_nrps:0.0090782758,Clonostachys_rosea_VUC22207.1_nrps:0.0325353293)83:0.0007890956,Clonostachys_rhizophaga_CAH0016865.1_nrps:0.0099105538)83:0.0040247142,Clonostachys_solani_CAH0048199.1_nrps:0.0130643099)100:0.2285531886)85:0.0256652230,Amniculicola_lignicola_KAF2001389.1_nrps:0.1793799828)69:0.0185888215,(Chaetothyriales_sp_CBS_134920_RMD43204.1_nrps:0.0339285903,Chaetothyriales_sp_CBS_135597_RMZ77957.1_nrps:0.0372219882)100:0.1013926472)68:0.0161469879)63:0.0071391981)47:0.0149039512,Pyrenochaeta_sp_DS3sAY3a_OAL45143.1_nrps:0.2275772561)58:0.1074825947,Didymosphaeria_enalia_KAF2270327.1_nrps:0.1605610722)59:0.0416933286)36:0.0098081192,ORY16213.1_split:0.2832987824)46:0.0120717433,((((KAG6999329.1_split:0.0950804441,(((KAI4087436.1_split:0.0066247092,KAI4113947.1_split:0.0153528858)100:0.1028164631,(KAI4148356.1_split:0.0162113682,KAI4289416.1_split:0.0152949823)100:0.1259469597)100:0.0275015142,KAI4087815.1_split:0.2290719317)90:0.0062563278)89:0.0121017218,(((KAI4132167.1_split:0.0820101267,KAI4198520.1_split:0.2767446744)90:0.0290263509,KAI4176560.1_split:0.1667461826)82:0.0050443807,KAI4244082.1_split:0.2323946775)63:0.0111249578)64:0.0084611913,(KAI4183817.1_split:0.1226483678,KAI4175354.1_split:0.1050829085)100:0.0232074957)88:0.0224341843,XP_008080493.1_split:0.3460249118)81:0.0123646840)98:0.1381544284,((((((((KAF4476776.1_split:0.0328181043,XP_037171875.1_split:0.0271724009)92:0.0079626889,(KAF4852212.1_split:0.0331095071,(KAF4900571.1_split:0.0286174517,KAH9232576.1_split:0.0177042506)96:0.0045728054)88:0.0040634722)80:0.0018911795,(KAF0327435.1_split:0.0289046128,KAF4818153.1_split:0.0270016546)100:0.0057896959)100:0.0179166996,KAH0423461.1_split:0.0394096127)100:0.1699641612,((((((((((((((EMT68996.1_split:0.0131169038,TVY60237.1_split:0.0092651605)100:0.0084419183,KAH7147697.1_split:0.0072404868)100:0.0059229792,(((((((QGI70967.1_split:0.0131979719,KAF5716871.1_split:0.0026351578)98:0.0017236652,(RKL38797.1_split:0.0090952635,KAI1066238.1_split:0.0045104529)100:0.0035461809)98:0.0054536601,(KAF5644396.1_split:0.0130365858,XP_041688445.1_split:0.0156373575)99:0.0079061181)67:0.0066151392,KAI1016476.1_split:0.0171137261)99:0.0102381992,((((KAF5249356.1_split:0.0066578908,KAF5980296.1_split:0.5060215008)100:0.0034353350,XP_036542836.1_split:0.0133674737)100:0.0041141882,KAF5549359.1_split:0.0276442512)100:0.0161310860,KAF5635992.1_split:0.0374008717)99:0.0050511322)64:0.0043160247,((((PNP83827.1_split:0.0099542552,XP_037206990.1_split:0.0315853275)96:0.0014287793,(KAF5597649.1_split:0.0177830527,KAF5685298.1_split:0.0208712934)97:0.0056291212)93:0.0028075635,KAF5579090.1_split:0.0272877883)100:0.0085335347,KAG5781089.1_split:0.0253381648)100:0.0082607679)97:0.0078927797,KAF4961240.1_split:0.0426909488)100:0.0075383510)100:0.0286337316,((KAF0638020.1_split:0.0248477185,(PTD02110.1_split:0.0023907247,CEF76455.1_split:0.0155867284)100:0.0337503609)100:0.0334962759,((OBS23240.1_split:0.0304905380,KAH6991832.1_split:0.0260810794)100:0.0242642241,(RGP67291.1_split:0.0196223609,Fusarium_langsethiae_GKU06934.1_nrps:0.0185788056)100:0.0343870958)96:0.0162233227)100:0.0523181129)100:0.0360049989,KAE9374075.1_split:0.0105081123)100:0.0817606293,KAF4467008.1_split:0.0396381182)100:0.0166469529,((RMJ02432.1_split:0.0011442581,RTE69451.1_split:0.0011432447)100:0.0049026588,RSL38657.1_split:0.0100417189)100:0.0280049388)100:0.0063896325,KAF4945802.1_split:0.0397322395)100:0.0088745975,QPG98311.1_split:0.0571519182)100:0.0383424715,KAI1268145.1_split:0.0523665068)98:0.0204850740,XP_046010844.1_split:0.0282036321)100:0.4472086317,KAH8880463.1_split:0.0692917738)100:0.0591932467,OAA59696.1_split:0.1634086673)100:0.0754431045,((((KAH7129551.1_split:0.0382843725,KAH7123087.1_split:0.0247540447)100:0.1120759080,KAF7551265.1_split:0.0751131570)55:0.0157692471,KAH6999778.1_split:0.0782963215)55:0.0154251872,((((MCJ1315357.1_split:0.0705715389,MCJ1294905.1_split:0.1031883941)100:0.0094048928,MCJ1283549.1_split:0.0728341004)100:0.0067772784,(MCJ1419551.1_split:0.0515820305,MCJ1433652.1_split:0.0320819110)100:0.0383545246)100:0.0165205191,MCJ1385508.1_split:0.0392521021)100:0.0337517187)55:0.0174503172)94:0.0167847914)100:0.0356947167,(((KXH33808.1_split:0.0323069304,((KAI3559025.1_split:0.0072400464,KAI3528182.1_split:0.0138459268)84:0.0017163293,XP_049153019.1_split:0.0110305173)100:0.0245658021)100:0.0468817338,(((KAF5250787.1_split:0.0250778690,((KAF5598633.1_split:0.0283614281,KAF5687172.1_split:0.0235498688)100:0.0054218855,((KAF5539463.1_split:0.0154769952,KAF5691722.1_split:0.0385646521)100:0.0018309929,KAF5977409.1_split:0.0765001423)87:0.0000027462)91:0.0048349240)100:0.0352214069,(KAF5655011.1_split:0.0273622781,KAI1018633.1_split:0.0177849356)100:0.0165572971)100:0.0128758156,KAG5773904.1_split:0.0404919328)100:0.1293630699)81:0.0142875217,(KAF4996084.1_split:0.0305727139,KAF4463402.1_split:0.0659852293)100:0.0401792377)100:0.3058657146)98:0.0369465646,KAH6873804.1_split:0.1226624944)96:0.0109007521,KAF5013927.1_split:0.1787314362)100:0.0603785129)98:0.0906775487,((KZZ97445.1_split:0.6613454464,((EHK49128.1_split:0.0288754080,XP_018663353.1_split:0.0210363676)100:0.0534730323,(KAH8130639.1_split:0.0080515618,XP_024763206.1_split:0.0060218983)100:0.0433439818)100:0.3069280202)92:0.0646321863,(((KAH7140156.1_split:0.0100533179,KAH7166367.1_split:0.0430962246)100:0.0834228350,KAF7552329.1_split:0.0751340094)88:0.0235700606,(KAH6982671.1_split:0.0136692338,KAH6957909.1_split:0.0194670953)100:0.0912294200)100:0.1253907782)95:0.0923351531)100:1.0097665745,(((((((TPX20322.1_split:0.0104326684,XP_003072098.1_split:0.0095439608)100:0.1784894207,(OQD71289.1_split:0.1426759264,XP_040649207.1_split:0.0899685179)100:0.0902952909)100:0.0350807872,(KAF1919509.1_split:0.2915196094,KAI0429011.1_split:0.1267149873)100:0.2961894545)98:0.0158768855,XP_003171298.1_split:0.2843012140)100:0.0844033858,XP_033402118.1_split:0.2642382276)100:0.1778452234,(MCJ1387732.1_split:0.2153820904,(MCJ1314533.1_split:0.3271023013,(KAI4167695.1_split:0.1562651436,XP_044664487.1_split:0.2984484996)100:0.1256367698)100:0.2317997724)98:0.0522077287)100:0.2165518298,(((((RYP10552.1_split:0.0532056822,(RYP71970.1_split:0.0309500664,RYP43738.1_split:0.0316213075)100:0.0060386062)100:0.0071564020,RYP70479.1_split:0.0483036239)97:0.0037499886,((RYP33552.1_split:0.0000029810,RYO82911.1_split:0.0000029810)100:0.0266522380,RYP15307.1_split:0.0220386151)100:0.0157465793)98:0.0117473627,RYP62963.1_split:0.0417730188)100:0.0730359416,KAI1249353.1_split:0.1009486666)100:0.2729664804)99:0.1565543637);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jan 12 14:00:47 2026
+Total CPU time used: 7771.984788 seconds (2h:9m:31s)
+Total wall-clock time used: 1014.070128 seconds (0h:16m:54s)
+
