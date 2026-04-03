@@ -1,2 +1,2 @@
 # ICS_Lecanoromycetes_crmA_SupRepo
-Supplemental repository for the "Isocyanide Synthases within Lecanoromycetes Unveil the Stepwise Evolution of a Widespread Hybrid Megasynthase" publication
+Reproducible code and data repository for the lichenized fungal ICS BGC prediction publication. GitHub repository is managed by Grant Nickles. For any data related questions email gnickles@wisc.edu or gnick317@gmail.com. For publication questions reach out to the corresponding authors Dr. Garima Singh at garima.singh@unipd.it or Dr. NancyKeller at npkeller@wisc.edu.
